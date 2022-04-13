@@ -1,0 +1,129 @@
+iframe
+  border-radius: 10px
+
+figcaption
+  margin-top: 4px
+
+caption
+  margin-top: 4px
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span 
+  color: white
+
+.img-infografica-b__modal
+  background-color: rgba(232, 232, 232, 0.9);     
+  p
+    color: $color-sistema-texto !important
+
+.img-infografica-b__modal__btn-cerrar i    
+  color: $color-sistema-texto !important
+
+.tema9-zoom
+  transition: transform .2s;
+  filter: brightness(50%);  
+  cursor: pointer
+.tema9-zoom:hover 
+  transform: scale(1.11);
+  filter: brightness(100%);
+
+
+
+
+.imagen-adornos-flotantes-tema3
+  position: relative
+  &__img1    
+    img      
+      position: absolute
+      z-index: 99
+      animation: t3zoom1 3s infinite
+  &__img2    
+    img      
+      position: absolute
+      z-index: 99
+      animation: t3zoom2 4s infinite
+  &__img3
+    img
+      position: absolute
+      z-index: 99
+      animation: t3zoom3 5s infinite
+  &__img4
+    img
+      position: absolute
+      z-index: 99
+      animation: t3rotar 15s infinite linear
+  
+      
+  
+@keyframes t3zoom1
+  0%
+    transform: scale(0.9, 0.9);
+  50%
+    transform: scale(2, 2);
+  100%
+    transform: scale(0.9, 0.9);
+@keyframes t3zoom2
+  0%
+    transform: scale(0.9, 0.9);
+  50%
+    transform: scale(1.5, 1.5);
+  100%
+    transform: scale(0.9, 0.9);
+@keyframes t3zoom3
+  0%
+    transform: scale(0.7, 0.7);
+  50%
+    transform: scale(1.2, 1.2);
+  100%
+    transform: scale(0.7, 0.7);
+
+@keyframes t3rotar 
+  from 
+    transform: rotate(0deg);
+  to
+    transform: rotate(360deg);         
+    
+
+
+
+
+.imagen-adornos-flotantes-tema4
+  position: relative
+  &__img1    
+    img      
+      position: absolute
+      z-index: 99
+      animation: zoom1 3s infinite
+  &__img2    
+    img      
+      position: absolute
+      z-index: 99
+      animation: zoom2 4s infinite
+  &__img3
+    img
+      position: absolute
+      z-index: 99
+      animation: zoom3 5s infinite
+      
+  
+@keyframes zoom1
+  0%
+    transform: scale(0.9, 0.9);
+  50%
+    transform: scale(2, 2);
+  100%
+    transform: scale(0.9, 0.9);
+@keyframes zoom2
+  0%
+    transform: scale(0.9, 0.9);
+  50%
+    transform: scale(1.5, 1.5);
+  100%
+    transform: scale(0.9, 0.9);
+@keyframes zoom3
+  0%
+    transform: scale(0.7, 0.7);
+  50%
+    transform: scale(1.2, 1.2);
+  100%
+    transform: scale(0.7, 0.7);
+

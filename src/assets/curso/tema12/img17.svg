@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="190" height="84" viewBox="0 0 190 84">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_464969" data-name="Trazado 464969" d="M0,0H24.839V68.757H0Z" transform="translate(1050.68 2143)" fill="none" stroke="#5263e2" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_704893" data-name="Grupo 704893" transform="translate(-816 -1467)">
+    <g id="Enmascarar_grupo_699856" data-name="Enmascarar grupo 699856" transform="translate(-146.68 -667)" clip-path="url(#clip-path)">
+      <g id="Elipse_6458" data-name="Elipse 6458" transform="translate(1053.43 2152.823)" fill="none" stroke="#5263e2" stroke-width="7">
+        <ellipse cx="9.23" cy="10.339" rx="9.23" ry="10.339" stroke="none"/>
+        <ellipse cx="9.23" cy="10.339" rx="5.73" ry="6.839" fill="none"/>
+      </g>
+      <g id="Elipse_6459" data-name="Elipse 6459" transform="translate(1053.43 2176.603)" fill="none" stroke="#5263e2" stroke-width="7">
+        <ellipse cx="9.23" cy="9.822" rx="9.23" ry="9.822" stroke="none"/>
+        <ellipse cx="9.23" cy="9.822" rx="5.73" ry="6.322" fill="none"/>
+      </g>
+      <g id="Elipse_6460" data-name="Elipse 6460" transform="translate(1053.43 2199.35)" fill="none" stroke="#5263e2" stroke-width="7">
+        <ellipse cx="9.23" cy="9.822" rx="9.23" ry="9.822" stroke="none"/>
+        <ellipse cx="9.23" cy="9.822" rx="5.73" ry="6.322" fill="none"/>
+      </g>
+      <line id="Línea_2582" data-name="Línea 2582" y2="17.221" transform="translate(1062.786 2166.429)" fill="none" stroke="#5263e2" stroke-width="5"/>
+      <line id="Línea_2583" data-name="Línea 2583" y2="17.221" transform="translate(1062.786 2190.458)" fill="none" stroke="#5263e2" stroke-width="5"/>
+      <line id="Línea_2584" data-name="Línea 2584" y2="17.221" transform="translate(1062.786 2143.2)" fill="none" stroke="#5263e2" stroke-width="5"/>
+    </g>
+    <rect id="Rectángulo_263018" data-name="Rectángulo 263018" width="190" height="84" transform="translate(816 1467)" fill="none"/>
+  </g>
+</svg>

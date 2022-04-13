@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="220" viewBox="0 0 1600 220">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_62367" data-name="Rectángulo 62367" width="1600" height="220" transform="translate(0 0.001)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_62366" data-name="Rectángulo 62366" width="1600.306" height="764.045" fill="#ffd46f"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="Rectángulo_62363" data-name="Rectángulo 62363" width="1432.79" height="220" fill="#fed981"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect id="Rectángulo_62362" data-name="Rectángulo 62362" width="1433.024" height="764.045" fill="#fed981"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <path id="Trazado_222891" data-name="Trazado 222891" d="M0,342.447v220H1358.69c-59.469-79.547-148-133.128-241.412-135.056-71.994-1.483-142.008,23.692-213.22,35.528C789.34,481.99,685.9,438.053,608.233,342.447Z" transform="translate(0 -342.447)" fill="#fed981"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <rect id="Rectángulo_62361" data-name="Rectángulo 62361" width="1358.69" height="220" fill="#fed981"/>
+    </clipPath>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1359 220">
+      <image width="1359" height="220" xlink:href="data:image/png;base64,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"/>
+    </pattern>
+  </defs>
+  <g id="Grupo_185324" data-name="Grupo 185324" transform="translate(-0.308 -342.447)">
+    <rect id="Rectángulo_62359" data-name="Rectángulo 62359" width="1600" height="220" transform="translate(0.308 342.447)" fill="#ffde96"/>
+    <g id="Grupo_185343" data-name="Grupo 185343" transform="translate(0.308 342.447)">
+      <g id="Grupo_185342" data-name="Grupo 185342" opacity="0.85" clip-path="url(#clip-path)">
+        <g id="Grupo_185340" data-name="Grupo 185340" transform="translate(-0.306 -344.011)">
+          <g id="Grupo_185339" data-name="Grupo 185339" clip-path="url(#clip-path-2)">
+            <g id="Grupo_185338" data-name="Grupo 185338">
+              <g id="Grupo_185345" data-name="Grupo 185345">
+                <g id="Grupo_185336" data-name="Grupo 185336" style="isolation: isolate">
+                  <g id="Grupo_185335" data-name="Grupo 185335">
+                    <g id="Grupo_185334" data-name="Grupo 185334" clip-path="url(#clip-path-2)">
+                      <g id="Grupo_185333" data-name="Grupo 185333" transform="translate(0 344.011)" opacity="0.53">
+                        <g id="Grupo_185332" data-name="Grupo 185332" clip-path="url(#clip-path-4)">
+                          <g id="Grupo_185331" data-name="Grupo 185331" transform="translate(0 -344.011)" style="isolation: isolate">
+                            <g id="Grupo_185330" data-name="Grupo 185330">
+                              <g id="Grupo_185329" data-name="Grupo 185329" clip-path="url(#clip-path-5)">
+                                <g id="Grupo_185328" data-name="Grupo 185328" transform="translate(0 344.011)">
+                                  <g id="Grupo_185327" data-name="Grupo 185327" clip-path="url(#clip-path-6)">
+                                    <g id="Grupo_185326" data-name="Grupo 185326" transform="translate(0 0)">
+                                      <g id="Grupo_185325" data-name="Grupo 185325">
+                                        <g id="Grupo_185324-2" data-name="Grupo 185324" clip-path="url(#clip-path-7)">
+                                          <rect id="Rectángulo_62360" data-name="Rectángulo 62360" width="1358.9" height="219.162" transform="translate(0 -0.107)" fill="url(#pattern)"/>
+                                        </g>
+                                      </g>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
