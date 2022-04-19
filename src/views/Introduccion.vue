@@ -147,6 +147,7 @@ export default {
 </script>
 
 <script>
+//import lottieWeb from 'https://cdn.skypack.dev/lottie-web'
 // const playIconContainer = document.getElementById('play-icon3')
 // let state = 'play'
 // alert(playIconContainer)
