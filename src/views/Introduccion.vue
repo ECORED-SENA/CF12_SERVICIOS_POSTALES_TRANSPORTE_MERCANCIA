@@ -26,10 +26,87 @@
             .imagen-adornos-flotantes__img4: img(src="@/assets/curso/intro/bolita4.png" style="left: 5% ; right: ; top: ; bottom: -5% ; width: 103px ")
             .imagen-adornos-flotantes__img5: img(src="@/assets/curso/intro/cajita1.png" style="left:  ; right: -2% ; top: ; bottom: -10% ; width: 103px ")
 
-    figure.mb-5(data-aos="fade-right")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
-    
+    //- figure.mb-5(data-aos="fade-right")
+    //-   .video
+    //-     iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)       
+    .tarjeta.tarjeta--gris.p-4(style="background-color: #FFFBEF")
+      PasosB.color-acento-contenido.p-0.m-0
+        .div.p-0.m-0.position-relative(titulo="")
+          p.mb-0.text-center <b>¿Cómo aprender durante este primer componente de formación?</b>
+          img.mb-0(src="@/assets/curso/intro/img100.svg")
+          .position-absolute.p-0.m-0(style='bottom:0 ; left: 35%;')
+            audio(controls)            
+              source(src="@/assets/curso/intro/Slide_2.mp3" type="audio/mpeg")    
+            //- div(id="audio-player-container")   
+            //-   p Audio Player
+            //-   button(id="play-icon3")
+            //-   span(id="current-time" class="time") 0:00
+            //-   span(id="duration" class="time") 0:00
+
+
+                  
+
+        .div.p-0.m-0(titulo="")
+          p.mb-0.text-center <b>¿Cuál es el objetivo de aprendizaje?</b>
+          ImagenInfografica.color-secundario.p-0.m-0
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/intro/img101.svg', alt='Texto que describa la imagen')                
+            .tarjeta.color-primario.p-3(x="33.8%" y="32%")
+              p.mb-0.d-inline.ps-1(style="border-left: 3px solid #5263E2") <b>Aprendizaje:</b> validar entrega de mercancías y objetos postales de acuerdo a clasificación y procedimientos.     
+            .tarjeta.color-primario.p-3(x="71.5%" y="32%")
+              p.mb-0.d-inline.ps-1(style="border-left: 3px solid #5263E2") <b>Objetivos:</b> aprender sobre el traslado de mercancías y objetos postales en medio de transporte según origen y destino, zonas asignadas y procedimientos.
+            .tarjeta.color-primario.p-3(x="28.8%" y="88%")
+              p.mb-0.d-inline.ps-1(style="border-left: 3px solid #5263E2") <b>Habilidades:</b>  operar el proceso de cargue y descargue de mercancías según normativa de higiene y seguridad.
+
+        .div.p-0.m-0.position-relative(titulo="")   
+          p.mb-0.text-center <b>¿Cómo está estructurado el componente de formación?</b>                         
+          ImagenInfografica.color-secundario.p-0.m-0
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/intro/img102.svg')                
+            .tarjeta.color-primario.p-3(x="31.9%" y="55.9%")
+              p.mb-0.d-inline.ps-1(style="border-left: 3px solid #5263E2") Trasladar las mercancías y objetos postales en medio de transporte según origen y destino, zonas asignadas y procedimientos.
+            .tarjeta.color-primario.p-3(x="68.1%" y="45.8%")
+              p.mb-0.d-inline.ps-1(style="border-left: 3px solid #5263E2") Validar entrega de mercancías y objetos postales de acuerdo con la clasificación y procedimientos. 
+          .position-absolute.p-0.m-0(style='bottom:0 ; left: 35%;')
+            audio(controls)            
+              source(src="@/assets/curso/intro/Slide_4.mp3" type="audio/mpeg")     
+              
+        .div.p-0.m-0.position-relative(titulo="")              
+          p.mb-0.text-center <b>¿Quiénes están en el curso?</b>                
+          ImagenInfografica.color-secundario.p-0.m-0
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/intro/img103.svg')                
+            .tarjeta.color-primario.p-3(style="width: 175px" x="38.9%" y="19%")
+              .row.align-items-center
+                .col-lg-4
+                  img(src='@/assets/curso/intro/img105.svg')                
+                .col-lg-8.px-0
+                  p.mb-0.text-center Contenidos
+            .tarjeta.color-primario.p-3(style="width: 175px" x="58.6%" y="17.5%")
+              .row.align-items-center
+                .col-lg-4
+                  img(src='@/assets/curso/intro/img106.svg')                
+                .col-lg-8.px-0
+                  p.mb-0.text-center Recursos 
+            .tarjeta.color-primario.p-3(style="width: 175px" x="55.2%" y="44.5%")
+              .row.align-items-center
+                .col-lg-4
+                  img(src='@/assets/curso/intro/img107.svg')                
+                .col-lg-8.px-0
+                  p.mb-0.text-center Personas  
+          .position-absolute.p-0.m-0(style='bottom:0 ; left: 35%;')
+            audio(controls)            
+              source(src="@/assets/curso/intro/Slide_5.mp3" type="audio/mpeg")
+        .div.p-0.m-0.position-relative(titulo="")              
+          img(src='@/assets/curso/intro/img108.svg')   
+          .position-absolute.p-0.m-0(style='bottom:0 ; left: 35%;')
+            audio(controls)            
+              source(src="@/assets/curso/intro/Slide_6.mp3" type="audio/mpeg")             
+
+            
     p.mb-5 Como se mencionó, dentro de las actividades en el ámbito de la logística, las operaciones de transporte son las que tienen el mayor porcentaje de participación.
 
     .row.justify-content-center.align-items-center.mb-5
@@ -69,7 +146,71 @@ export default {
 }
 </script>
 
+<script>
+// const playIconContainer = document.getElementById('play-icon3')
+// let state = 'play'
+// alert(playIconContainer)
+
+// playIconContainer.addEventListener('click', () => {
+//   if (state === 'play') {
+//     //animation.playSegments([14, 27], true)
+//     state = 'pause'
+//   } else {
+//     //animation.playSegments([0, 14], true)
+//     state = 'play'
+//   }
+// })
+</script>
+
 <style lang="sass">
+.pasos-b__header__btn--left, .pasos-b__header__btn--right
+    border: 2px solid #133D60;
+    background-color: #133D60;
+
+.fa-angle-left:before
+  color: white
+
+.fa-angle-right:before
+  color: white
+
+.pasos-b.color-acento-contenido .pasos-b__header__item--active .pasos-b__header__item__dot
+  border: 3px solid #43A99B;
+  background-color: #43A99B;
+  span
+    color: white
+
+.pasos-b__header__item__dot
+  border: 1px solid #CEE9FF;
+  background-color: #CEE9FF;
+
+.pasos-b__header__item:first-child .pasos-b__header__item__line-container:before
+  background-color: transparent
+
+
+.pasos-b__header__item__line-container:before
+  background-color: #707070
+
+.pasos-b__header__item__line-container:after, .pasos-b__header__item__line-container:before
+  background-color: #707070;
+
+.pasos-b__header__item--before .pasos-b__header__item__dot
+    border-color: #5263E2;
+    background-color: #5263E2;
+
+b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after
+  background-color: #707070;
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after
+  background-color: #707070;
+
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: #707070;
+
+.pasos-b__header
+  margin-bottom: 0rem!important;
+
+
+
 .imagen-adornos-flotantes
   &__img1
     img
