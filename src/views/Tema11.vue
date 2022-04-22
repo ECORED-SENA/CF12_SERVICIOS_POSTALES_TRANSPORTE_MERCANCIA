@@ -34,9 +34,9 @@
                     th(colspan=5 style="font-size: 18px; border-left: 0px !important") Devoluciones <u>de productos</u>
                 tbody
                   tr
-                    td(colspan=5 style="font-size:18px; border-left: 0px !important") Se pueden presentar devoluciones de productos nuevos o usados. Las principales razones que origina la devolución de un producto nuevo son:                    
+                    td(colspan=5 style="font-size:18px; border-left: 0px !important; word-wrap: break-word") Se pueden presentar devoluciones de productos nuevos o usados. Las principales razones que origina la devolución de un producto nuevo son:                    
                   tr
-                    td.centrado(style="border-left: 0px !important") Razones de la devolución de productos nuevos. 
+                    td.centrado(style="border-left: 0px !important; word-wrap: break-word") Razones de la devolución de productos nuevos. 
                     td(colspan=4)
                       img(src='@/assets/curso/tema11/img03.svg') 
 
@@ -47,12 +47,12 @@
               table.mb-5      
                 thead
                   tr
-                    th(colspan=5 style="font-size: 18px; border-left: 0px !important") Devoluciones <u>de productos</u>
+                    th(colspan=5 style="font-size: 18px; border-left: 0px !important; word-wrap: break-word") Devoluciones <u>de productos</u>
                 tbody
                   tr
-                    td(colspan=5 style="font-size:18px; border-left: 0px !important") Para el caso de los productos usados, las razones principales de su devolución son las siguientes:
+                    td(colspan=5 style="font-size:18px; border-left: 0px !important; word-wrap: break-word") Para el caso de los productos usados, las razones principales de su devolución son las siguientes:
                   tr
-                    td.centrado(style="border-left: 0px !important") Razones de la devolución de productos usados.
+                    td.centrado(style="border-left: 0px !important; word-wrap: break-word") Razones de la devolución de productos usados.
                     td(colspan=4)
                       img(src='@/assets/curso/tema11/img04.svg') 
 
@@ -104,11 +104,20 @@ export default {
     background-color: #FED981;
     border-color: #FED981;
 
-.bloque-texto-g__img
-    width: 40%;
-
 .bloque-texto-g__texto
-  width: 70% !important
+  width: 70%;
+
+.bloque-texto-g__img
+  width: 43%;
+
+@media (max-width: 992px)
+  .bloque-texto-g__texto
+      width: 100%;
+
+  .bloque-texto-g__img
+    width: 100%;
+
+
 
 .tabla-a.tabla2
   table
