@@ -46,16 +46,16 @@
             th(colspan=3 style="border-left: 0px !important") Técnicas de cohesión            
         tbody
           tr
-            td.centrado(style="font-size:18px; border-left: 0px !important") <b>Contenerización.</b>
+            td.centrado(style="font-size:18px; border-left: 0px !important; word-wrap: break-word") <b>Contenerización</b>
             td(colspan=2) Consiste en depositar, estibar o acondicionar los bultos o cualquier unidad de carga en un contenedor de transporte, con el fin de optimizar los flujos físicos del transporte. El contenedor almacena cualquier tipo de carga; para ello, existe una amplia variedad, los cuales se puede adaptar a las diferentes necesidades del transporte.            
           tr
-            td.centrado(style="font-size:18px; border-left: 0px !important") <b>Flejado</b>
+            td.centrado(style="font-size:18px; border-left: 0px !important; word-wrap: break-word") <b>Flejado</b>
             td(colspan=2) Operación a través de la cual se forma una sola unidad de carga con bultos que se sujetan entre sí mediante flejes, o se fijan uno o varios bultos sobre un pallet o plataforma.
           tr
-            td.centrado(style="font-size:18px; border-left: 0px !important") <b>Paletización</b>
+            td.centrado(style="font-size:18px; border-left: 0px !important; word-wrap: break-word") <b>Paletización</b>
             td(colspan=2) Se trata de reunir uno o más paquetes acondicionados sobre un pallet, fijándolo a través de flejes, cartón, madera, retractilado, o cualquier sistema de sujeción, con el fin de mantener su seguridad y evitar robos o averías. <br>En la actualidad existen múltiples tipos y tamaños con diferentes materiales, los cuales se han adaptado a las necesidades del comercio y la industria. Puede usarse como soporte de la mercancía o formar parte del embalaje, lo que maximiza su capacidad y garantiza su seguridad durante las operaciones de manutención, almacenamiento y transporte.
           tr
-            td.centrado(style="font-size:18px; border-left: 0px !important") <b>Preeslingado</b>
+            td.centrado(style="font-size:18px; border-left: 0px !important; word-wrap: break-word") <b>Preeslingado</b>
             td(colspan=2) Formación de una unidad de carga por la agrupación de diversos bultos o unidades a través su sujeción con eslingas para su manipulación por medio mecánicos.
 </template>
 

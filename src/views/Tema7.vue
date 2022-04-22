@@ -6,6 +6,8 @@
       .titulo-principal__numero
         span 7 
       h1 Alistamiento de mercancía
+
+    
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-1
@@ -98,20 +100,34 @@
 
     Separador
 
-    #t_7_1.titulo-segundo.color-primario.mb-0
+    #t_7_1.titulo-segundo.color-primario
       h2 7.1. Picking (recogida)
+              
+    .row.justify-content-center.align-items-center.mb-5.pt-0.pt-xxl-5
+      .col-lg-10.px-5
+        .bloque-texto-g.color-primario.position-relative(style="padding: 2.5rem !important")
+          .bloque-texto-g__img(
+            :style="{'background-image':`url(${require('@/assets/curso/tema7/img31.png')})`}"
+          )
+            .imagen-superior.position-absolute.d-none.d-lg-block(style='bottom:0 ; left: -0%;'): img(src='@/assets/curso/tema7/img30.png')
+          .bloque-texto-g__texto.p-5
+            div.p-4
+              p.d-block.mb-0 En este punto se va a enfocar la atención en la actividad de picking debido a que es la actividad con mayor relevancia para la preparación de los pedidos, y consiste en seleccionar y extraer de los lugares de almacenamiento las referencias solicitadas.              
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-up")
-      .col-10(style="position:relative")
-        img(src='@/assets/curso/tema7/img19.png')
-        div(style="position:absolute; bottom:5px")
-          .bloque-texto-g.color-primario.p-4.py-5
-            .bloque-texto-g__img(
-              :style="{'background-image': `url(${require('@/assets/curso/tema7/img18.png')})`}"
-            )
-            .bloque-texto-g__texto.p-5
-              div.p-0.d-block.p-2
-                p.mb-0 En este punto se va a enfocar la atención en la actividad de picking debido a que es la actividad con mayor relevancia para la preparación de los pedidos, y consiste en seleccionar y extraer de los lugares de almacenamiento las referencias solicitadas.              
+    //- .row.justify-content-center.align-items-center.mb-5(data-aos="fade-up")
+    //-   .col-10(style="position:relative")
+    //-     img(src='@/assets/curso/tema7/img19.png')
+    //-     div(style="position:absolute; bottom:5px")
+    //-       .bloque-texto-g.color-primario.p-4.py-5
+    //-         .bloque-texto-g__img(
+    //-           :style="{'background-image': `url(${require('@/assets/curso/tema7/img18.png')})`}"
+    //-         )
+    //-         .bloque-texto-g__texto.p-5
+    //-           div.p-0.d-block.p-2
+    //-             p.mb-0 En este punto se va a enfocar la atención en la actividad de picking debido a que es la actividad con mayor relevancia para la preparación de los pedidos, y consiste en seleccionar y extraer de los lugares de almacenamiento las referencias solicitadas.              
+
+
+
 
     p.mb-4 Teniendo en cuenta que esta es una de las actividades más costosas en el almacén, se deben realizar procesos operativos eficientes. Por ejemplo, reducir al mínimo las distancias recorridas por los operarios o por los equipos, sin descuidar la calidad del servicio en el almacén.
     p.mb-4 A continuación, se especifican los tipos de picking, de acuerdo con diferentes criterios:
@@ -211,6 +227,20 @@ export default {
 </script>
 
 <style lang="sass">
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #FED981
+    background-image: url("../assets/curso/tema6/img04.svg")
+
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  transform: rotate(180deg);
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  transform: rotate(0);
+
+.slyder-a__bullets__item--active
+    background-color: #FED981;
+    border-color: #FED981;
+
 .tarjeta-avatar
   padding-top: 35px;
 
@@ -230,5 +260,12 @@ export default {
   width: 70%;
 
 .bloque-texto-g__img
-    width: 43%;
+  width: 43%;
+
+@media (max-width: 992px)
+  .bloque-texto-g__texto
+      width: 100%;
+
+  .bloque-texto-g__img
+    width: 100%;
 </style>

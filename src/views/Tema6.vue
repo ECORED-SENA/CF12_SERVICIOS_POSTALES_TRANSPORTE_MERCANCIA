@@ -29,9 +29,9 @@
               img(src='@/assets/curso/tema6/img02.svg', alt='Texto que describa la imagen')              
 
           div(x="16.9%" y="34.5%"  numero=" ")    
-            .tarjeta.p-4.mb-5          
+            .tarjeta.tarjeta--gris.p-4.mb-5          
               SlyderA(tipo="b")
-                .row.justify-content-center.align-items-top    
+                .row.justify-content-center
                   p.mb-4 <b>Manual</b>
                   .col-lg-6                
                     p.mb-4 Hace referencia al <u>no uso de maquinaria</u> para el control y picking en el almacén.
@@ -43,33 +43,33 @@
                   .col-lg-6
                     figure
                       img(src='@/assets/curso/tema6/img03.png')
-                .row.justify-content-center.align-items-top    
+                .row.justify-content-center
                   p.mb-4 <b>Manual</b>
-                  .col-lg-6                
+                  .col-12.col-lg-12.col-xl-6                
                     p.mb-4 Las empresas que utilizan este tipo de armado de pedidos no almacenan artículos con un peso o volumen exagerado, sino que se dedican a manejar paquetería de pequeñas dimensiones y las estanterías no suelen ser altas para que los operarios con la elevación de brazos puedan alcanzar los artículos en los estantes más altos sin problema.
                     p.mb-3 - Los espacios entre estanterías pueden estar más reducidos, pues no es necesario el paso de maquinaria entre las mismas.
                     p.mb-4 - El operario debe buscar los artículos en las zonas respectivas y llevarlos a la zona de manipulación o embalaje antes de su entrega.
                     p.mb-0 Las unidades para entregar al cliente o enviar a transporte y el resto del procedimiento se realiza de forma manual.
 
-                  .col-lg-2.p-1        
+                  .col-6.col-lg-4.col-xl-2
                     div.p-0.position-relative
                       figure
                         img(src="@/assets/curso/tema6/img05.png")
-                      div.p-2.w-100.position-absolute(style="font-size: 15px; bottom: 0%; height:87px;  background-color: rgba(255, 247, 230, 0.85)")
+                      div.p-2.w-100.position-absolute(style="font-size: 15px; bottom: 0%; height:120px;  background-color: rgba(255, 247, 230, 0.85)")
                         p.mt-2.mb-0 El operario camina entre los pasillos .
 
-                  .col-lg-2.p-1        
+                  .col-6.col-lg-4.col-xl-2
                     div.p-0.position-relative
                       figure
                         img(src="@/assets/curso/tema6/img06.png")
-                      div.p-2.w-100.position-absolute(style="font-size: 15px; bottom: 0%; height:87px;  background-color: rgba(255, 247, 230, 0.85)")
+                      div.p-2.w-100.position-absolute(style="font-size: 15px; bottom: 0%; height:120px;  background-color: rgba(255, 247, 230, 0.85)")
                         p.mt-2.mb-0 Recoge los productos con las manos.
                   
-                  .col-lg-2.p-1        
+                  .col-6.col-lg-4.col-xl-2
                     div.p-0.position-relative
                       figure
                         img(src="@/assets/curso/tema6/img07.png")
-                      div.px-2.w-100.position-absolute(style="font-size: 15px; bottom: 0%; height:87px;  background-color: rgba(255, 247, 230, 0.85)")
+                      div.px-2.w-100.position-absolute(style="font-size: 15px; bottom: 0%; height:120px;  background-color: rgba(255, 247, 230, 0.85)")
                         p.mt-2.mb-0 Lleva los productos a la zona de manipulación o embalaje.
 
             
