@@ -9,10 +9,10 @@
 
     p.mb-5 Corresponde al elemento con el que se cierra y sella un envase o embalaje con el fin de que solo pueda ser abierto por un destinatario o la persona a la que corresponda. Las formas más habituales de precinto son:
     
-    .row.justify-content-center.align-items-center.mb-5.indicador__container(@mouseover="mostrarIndicador = false")
+    .row.justify-content-center.align-items-center.mb-4.indicador__container(@mouseover="mostrarIndicador = false")
       .indicador--click(v-if="mostrarIndicador")
       .col-lg-4.tema9-zoom        
-        div.p-0.position-relative(data-aos="fade-left")          
+        div.p-0.position-relative.mb-4.mb-lg-0(data-aos="fade-left")          
           figure            
             img(src="@/assets/curso/tema9/img01.png")
           div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
@@ -22,7 +22,7 @@
               .col-lg-10
                 p.mb-0 Las cintas adhesivas plásticas.
       .col-lg-4.tema9-zoom
-        div.p-0.position-relative(data-aos="fade-right")
+        div.p-0.position-relative.mb-4.mb-lg-0(data-aos="fade-right")
           figure
             img(src="@/assets/curso/tema9/img02.png")
           div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
@@ -32,7 +32,7 @@
               .col-lg-10
                 p.mb-0 Cuerdas.
       .col-lg-4.tema9-zoom
-        div.p-0.position-relative(data-aos="fade-left")
+        div.p-0.position-relative.mb-4.mb-lg-0(data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema9/img03.png")
           div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
@@ -44,7 +44,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.tema9-zoom
-        div.p-0.position-relative(data-aos="fade-right")
+        div.p-0.position-relative.mb-4.mb-lg-0(data-aos="fade-right")
           figure
             img(src="@/assets/curso/tema9/img04.png")
           div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
@@ -54,7 +54,7 @@
               .col-lg-10
                 p.mb-0 Tirantes.
       .col-lg-4.tema9-zoom
-        div.p-0.position-relative(data-aos="fade-left")
+        div.p-0.position-relative.mb-4.mb-lg-0(data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema9/img05.png")
           div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
@@ -64,7 +64,7 @@
               .col-lg-10
                 p.mb-0 Lacres.
       .col-lg-4.tema9-zoom
-        div.p-0.position-relative(data-aos="fade-right")
+        div.p-0.position-relative.mb-4.mb-lg-0(data-aos="fade-right")
           figure
             img(src="@/assets/curso/tema9/img06.png")
           div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
@@ -87,13 +87,13 @@
 
     br
     .row.justify-content-center.align-items-center.mb-0
-      .col-lg-5(data-aos="fade-up")
+      .col-lg-5(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
           h4.mb-0 Figura 1
           div <i>Precinto de alta seguridad para sellar contenedores de transporte</i>
         figure
           img(src="@/assets/curso/tema9/img08.png")
-      .col-lg-5(data-aos="fade-down")
+      .col-lg-5(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           h4.mb-0 Figura 2
           div <i>Precinto electrónico para contenedores</i>

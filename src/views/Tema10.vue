@@ -25,10 +25,10 @@
           figure
             img(src='@/assets/curso/tema10/img02.svg')            
 
-        .tarjeta.color-primario.p-3.position-relative(style="font-size: 15px; right:100%" x="75.6%" y="18%" numero=" ")
+        .tarjeta.color-primario.p-3.position-relative(style="font-size: 15px; right:60%" x="75.6%" y="18%" numero=" ")
           p.mb-1 <b>Báscula compacta</b>
           p.mb-0 Corresponde al equipo que se usa normalmente y que se conoce también como báscula o balanza de sobremesa. Se compone de una plataforma de pesaje donde se pone el artículo y un indicador de peso que puede ser una aguja que indica las cantidades o un sistema LCD que corresponde a un modelo más moderno.
-        .tarjeta.color-primario.p-3(x="19%" y="71%" numero=" ")
+        .tarjeta.color-primario.p-3.position-relative(style="font-size: 15px; right:30%" x="19%" y="71%" numero=" ")
           p.mb-1 <b>Básculas especial </b>
           p.mb-0 Pueden ser de diferentes características, por ejemplo, las básculas cuentapiezas que son de sobremesa y con mucha precisión o las grandes e industriales que se encuentran empotradas al suelo para mercancía transportada por carretillas, elevadoras o transpaletas.
         
