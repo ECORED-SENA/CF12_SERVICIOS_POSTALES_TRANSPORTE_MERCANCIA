@@ -41,17 +41,19 @@
     h4.mb-5 Aéreo
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12.d-none.d-lg-block
         div.p-0.position-relative(data-aos="fade-right")
           figure
             img(src="@/assets/curso/tema1/img02.png")
           div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:100px;  background-color: rgba(255, 243, 205, 0.80)")
-            p.mt-2.mb-0.px-5 Es el modo de transporte más reciente, su principal ventaja es la rapidez y para la carga se han construido aeronaves cargueras diseñadas para el transporte de mercancía. Las características principales son: 
-
+            p.mt-2.mb-0.px-5 Es el modo de transporte más reciente, su principal ventaja es la rapidez y para la carga se han construido aeronaves cargueras diseñadas para el transporte de mercancía. Las características principales son:      
+      .col-lg-12.d-lg-none        
+          div.py-4.p-5.w-100(style="bottom: 0%; background-color: rgba(255, 243, 205, 0.80)")
+            p.mt-2.mb-0.px-lg-5.px-0 Es el modo de transporte más reciente, su principal ventaja es la rapidez y para la carga se han construido aeronaves cargueras diseñadas para el transporte de mercancía. Las características principales son: 
 
     .tarjetas1.mb-4(data-aos="fade-left")
       .row.justify-content-center.align-items-center        
-        .col-lg-4
+        .col-sm-8.col-xl-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img03.png')
             .TFoverlay(style="background-color: #FFDE96")
@@ -59,7 +61,7 @@
                 img.mb-4(style="width:79px" src="@/assets/curso/tema1/img08.svg")
                 h4 Rapidez
                 p.mb-0 Este transporte es adecuado para mercancías urgentes, productos perecederos y aquellos de valor unitario elevado.
-        .col-lg-4
+        .col-sm-8.col-xl-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img04.png')
             .TFoverlay(style="background-color: #FFDE96")
@@ -67,7 +69,7 @@
                 img.mb-4(style="width:79px" src="@/assets/curso/tema1/img09.svg")
                 h4 Seguridad
                 p.mb-0 El transporte aéreo tiene los índices de seguridad más altos de todos los medios de transporte.
-        .col-lg-4
+        .col-sm-8.col-xl-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img05.png')
             .TFoverlay(style="background-color: #FFDE96")
@@ -78,7 +80,7 @@
 
     .tarjetas1.mb-4(data-aos="fade-right")
       .row.justify-content-center.align-items-center        
-        .col-lg-4
+        .col-sm-8.col-xl-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img11.png')
             .TFoverlay(style="background-color: #FFDE96")
@@ -86,7 +88,7 @@
                 img.mb-4(style="width:99px" src="@/assets/curso/tema1/img13.svg")
                 h4 Costos
                 p.mb-0 Su elevado costo limita su uso a mercancías de alto valor unitario o aquellas en que la rapidez de entrega es un valor añadido significativo.
-        .col-lg-4
+        .col-sm-8.col-xl-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img12.png')
             .TFoverlay(style="background-color: #FFDE96")
@@ -147,41 +149,43 @@
     h4.mb-5 Ferroviario
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12.d-none.d-lg-block
         div.p-0.position-relative(data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema1/img18.png")
           div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:100px;  background-color: rgba(255, 243, 205, 0.80)")
             p.mt-2.mb-0.px-5 Este modo hace uso del ferrocarril como medio de transporte. En muchos países tiene baja representación el transporte de mercancías a través de este modo, debido a que no se cuenta con la infraestructura ni los servicios relacionados con estas. 
-
+      .col-lg-12.d-lg-none
+          div.py-4.p-5.w-100(style="bottom: 0%;  background-color: rgba(255, 243, 205, 0.80)")
+            p.mt-2.mb-0.px-lg-5.px-0 Este modo hace uso del ferrocarril como medio de transporte. En muchos países tiene baja representación el transporte de mercancías a través de este modo, debido a que no se cuenta con la infraestructura ni los servicios relacionados con estas. 
     p.mb-4 Las principales características son las siguientes:
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3.tarjeta1-tema1         
+      .col-6.col-xl-3.tarjeta1-tema1         
         img(src="@/assets/curso/tema1/img19.png")
-        div.p-3(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
+        div.p-3.mb-3.mb-xl-0(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
           h4 Capacidad
           p.mb-4 Realiza movimientos de grandes cargas. 
-      .col-lg-3.tarjeta1-tema1
+      .col-6.col-xl-3.tarjeta1-tema1
         img(src="@/assets/curso/tema1/img20.png")
-        div.p-3(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
+        div.p-3.mb-3.mb-xl-0(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
           h4 Seguridad
           p.mb-4 Presenta uno de los índices de siniestralidad más bajos.
-      .col-lg-3.tarjeta1-tema1
+      .col-6.col-xl-3.tarjeta1-tema1
         img(src="@/assets/curso/tema1/img21.png")
-        div.p-3(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
+        div.p-3.mb-3.mb-xl-0(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
           h4 Intermodalidad
           p.mb-4 Es el modo menos contaminante para el medio ambiente.
 
     .row.justify-content-center.align-items-center.mb-5      
-      .col-lg-3.tarjeta1-tema1
+      .col-6.col-xl-3.tarjeta1-tema1
         img(src="@/assets/curso/tema1/img22.png")
-        div.p-3(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
+        div.p-3.mb-3.mb-xl-0(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
           h4 Seguridad
           p.mb-4 Es posible interactuar con otros modos de transporte (marítimo y carretera).
-      .col-lg-3.tarjeta1-tema1
+      .col-6.col-xl-3.tarjeta1-tema1
         img(src="@/assets/curso/tema1/img23.png")
-        div.p-3(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
+        div.p-3.mb-3.mb-xl-0(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
           h4 Regularidad
           p.mb-4 Permite la circulación permanente, incluidos fines de semana o condiciones atmosféricas adversas.
 
@@ -213,74 +217,76 @@
     h4.mb-4 Marítimo 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12.d-none.d-lg-block
         div.p-0.position-relative(data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema1/img27.png")
           div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:100px;  background-color: rgba(255, 243, 205, 0.80)")
             p.mt-2.mb-0.px-5 Corresponde al modo más utilizado en el comercio internacional y el que mueve la mayor cantidad de carga debido a la facilidad de acceso al medio marítimo, el desarrollo tecnológico y la globalización de los mercados.
-
+      .col-lg-12.d-lg-none
+          div.py-4.p-5.w-100(style="bottom: 0%;  background-color: rgba(255, 243, 205, 0.80)")
+            p.mt-2.mb-0.px-lg-5.px-0 Corresponde al modo más utilizado en el comercio internacional y el que mueve la mayor cantidad de carga debido a la facilidad de acceso al medio marítimo, el desarrollo tecnológico y la globalización de los mercados.
 
     p.mb-4 Las características principales de este modo de transporte son:
 
     .tarjetas1.mb-4(data-aos="fade-right")
-      .row
-        .col-lg-4.d-flex
+      .row.justify-content-center
+        .col-6.col-xl-4.d-flex
           .TFcontainer.mb-3(style="background-color: #FFE29E")
             img.TFimage(src='@/assets/curso/tema1/img29.png')                        
             .TFoverlay3(style="background-color: #A4A3FF")
               div.p-4.pt-3
                 .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3
+                  .col-3
                     img.TFimage(src='@/assets/curso/tema1/img28.svg')      
-                  .col-lg-9 
+                  .col-9
                     h3.mb-0 Internacionalidad
                 p.mb-0 Transporta mercancía entre puntos geográficos distantes al más bajo costo y es el que menos impacto tiene en el medio ambiente. 
-        .col-lg-4.d-flex
+        .col-6.col-xl-4.d-flex
           .TFcontainer.mb-3(style="background-color: #8D9BFF")                                     
             img.TFimage(src='@/assets/curso/tema1/img30.png')                        
             .TFoverlay3(style="background-color: #A4A3FF")
               div.p-4.pt-3
                 .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3
+                  .col-3
                     img.TFimage(src='@/assets/curso/tema1/img28.svg')      
-                  .col-lg-9 
+                  .col-9 
                     h3.mb-0 Versatilidad
                 p.mb-0 Con el fin de adaptarse a la mercancía a transportar, el diseño de los buques se ha especializado cada vez más.
-        .col-lg-4.d-flex
+        .col-6.col-xl-4.d-flex
           .TFcontainer.mb-3(style="background-color: #FFE29E")
             img.TFimage(src='@/assets/curso/tema1/img31.png')                        
             .TFoverlay3(style="background-color: #A4A3FF")
               div.p-4.pt-3
                 .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3
+                  .col-3
                     img.TFimage(src='@/assets/curso/tema1/img28.svg')      
-                  .col-lg-9 
+                  .col-9 
                     h3.mb-0 Gran capacidad
                 p.mb-0 Existen buques de amplia gama de tamaños, desde 100 TPM (toneladas de peso muerto) hasta mayores de 300.000 TMP
 
     .tarjetas1.mb-5(data-aos="fade-right")
-      .row.justify-content-center
-        .col-lg-4.d-flex
+      .row.justify-content-center.align-items-center
+        .col-6.col-xl-4.d-flex
           .TFcontainer.mb-3(style="background-color: #FFE29E")
             img.TFimage(src='@/assets/curso/tema1/img32.png')                        
             .TFoverlay3(style="background-color: #A4A3FF")
               div.p-4.pt-3
                 .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3
+                  .col-3
                     img.TFimage(src='@/assets/curso/tema1/img28.svg')      
-                  .col-lg-9 
+                  .col-9 
                     h3.mb-0 Infraestructura
                 p.mb-0 Se requiere una infraestructura portuaria en tierra, con instalaciones adecuadas. 
-        .col-lg-4.d-flex
+        .col-6.col-xl-4.d-flex
           .TFcontainer.mb-3(style="background-color: #8D9BFF")                                     
             img.TFimage(src='@/assets/curso/tema1/img33.png')                        
             .TFoverlay3(style="background-color: #A4A3FF")
               div.p-4.pt-3
                 .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3
+                  .col-3
                     img.TFimage(src='@/assets/curso/tema1/img28.svg')      
-                  .col-lg-9 
+                  .col-9 
                     h3.mb-0 Escasa penetrabilidad
                 p.mb-0 Debido a que tiene gran dependencia de la carretera o el ferrocarril para alcanzar el destino de la mercancía.
 
@@ -304,12 +310,15 @@
     h4.mb-4 Carretera
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12.d-none.d-lg-block
         div.p-0.position-relative(data-aos="fade-right")
           figure
             img(src="@/assets/curso/tema1/img36.png")
           div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:85px;  background-color: rgba(255, 243, 205, 0.80)")
             p.mt-2.mb-0.px-5 Corresponde a la modalidad de transporte más utilizada y eficaz para los servicios puerta a puerta.
+      .col-lg-12.d-lg-none
+          div.py-4.p-5.w-100(style="bottom: 0%;  background-color: rgba(255, 243, 205, 0.80)")
+            p.mt-2.mb-0.px-lg-5.px-0 Corresponde a la modalidad de transporte más utilizada y eficaz para los servicios puerta a puerta.
 
     p.mb-5 Las principales características de este modo de transporte son las siguientes:
 
@@ -335,14 +344,14 @@
     
     h4.mb-4 Fluvial  
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")      
-      .col-lg-4
-        .imagen-adornos-flotantes-tema3.d-flex.justify-content-center          
+      .col-8.col-xl-4
+        .imagen-adornos-flotantes-tema3.d-flex.justify-content-center.mb-5.mb-xl-0
             img(src='@/assets/curso/tema1/img44.png')
             .imagen-adornos-flotantes-tema3__img1: img(src="@/assets/curso/tema3/bolita1.png" style="left:25%; right:  ; top: -10%; bottom:  ; width: 47px")
             .imagen-adornos-flotantes-tema3__img2: img(src="@/assets/curso/tema3/bolita2.png" style="left: ; right:-10% ; top:-5% ; bottom: ; width: 73px ")
             .imagen-adornos-flotantes-tema3__img3: img(src="@/assets/curso/tema3/bolita3.png" style="left: 25% ; right: ; top: ; bottom: -12% ; width: 47px ")
             .imagen-adornos-flotantes-tema3__img4: img(src="@/assets/curso/tema3/cajita1.png" style="left: -5% ; right: ; top: ; bottom: -17% ; width: 142px ")
-      .col-lg-7
+      .col-xl-7
         div.px-4
           p.mb-4 Posee características similares al modo marítimo y corresponde al transporte por vías navegables al interior de los territorios se caracteriza por:
         ol.lista-ol--cuadro

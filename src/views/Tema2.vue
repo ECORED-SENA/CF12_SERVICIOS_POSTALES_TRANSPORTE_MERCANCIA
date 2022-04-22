@@ -219,8 +219,12 @@ export default {
 .tarjeta.color-primario--borde
   border: solid 2px #FED981;
 
-.bloque-texto-g__texto
-  width: 68%;
+bloque-texto-g__texto
+   width: 68%;
+
+@media (max-width: 992px)
+  .bloque-texto-g__texto
+      width: 100%;
 
 
 // .bloque-texto-g__texto

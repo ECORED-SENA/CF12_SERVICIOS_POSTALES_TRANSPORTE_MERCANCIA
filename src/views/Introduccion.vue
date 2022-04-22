@@ -36,7 +36,7 @@
         .div.p-0.m-0.position-relative(titulo="")
           p.mb-0.text-center <b>¿Cómo aprender durante este primer componente de formación?</b>
           img.mb-0(src="@/assets/curso/intro/img100.svg")
-          .position-absolute.p-0.m-0(style='bottom:0 ; left: 35%;')
+          .position-absolute.p-0.m-0.w-100.d-flex.justify-content-center(style='bottom:0 ; left: 0%;')            
             audio(controls)            
               source(src="@/assets/curso/intro/Slide_2.mp3" type="audio/mpeg")    
             //- div(id="audio-player-container")   
@@ -71,7 +71,7 @@
               p.mb-0.d-inline.ps-1(style="border-left: 3px solid #5263E2") Trasladar las mercancías y objetos postales en medio de transporte según origen y destino, zonas asignadas y procedimientos.
             .tarjeta.color-primario.p-3(x="68.1%" y="45.8%")
               p.mb-0.d-inline.ps-1(style="border-left: 3px solid #5263E2") Validar entrega de mercancías y objetos postales de acuerdo con la clasificación y procedimientos. 
-          .position-absolute.p-0.m-0(style='bottom:0 ; left: 35%;')
+          .position-absolute.p-0.m-0.w-100.d-flex.justify-content-center(style='bottom:0 ; left: 0%;')            
             audio(controls)            
               source(src="@/assets/curso/intro/Slide_4.mp3" type="audio/mpeg")     
               
@@ -99,12 +99,12 @@
                   img(src='@/assets/curso/intro/img107.svg')                
                 .col-lg-8.px-0
                   p.mb-0.text-center Personas  
-          .position-absolute.p-0.m-0(style='bottom:0 ; left: 35%;')
+          .position-absolute.p-0.m-0.w-100.d-flex.justify-content-center(style='bottom:0 ; left: 0%;')            
             audio(controls)            
               source(src="@/assets/curso/intro/Slide_5.mp3" type="audio/mpeg")
         .div.p-0.m-0.position-relative(titulo="")              
           img(src='@/assets/curso/intro/img108.svg')   
-          .position-absolute.p-0.m-0(style='bottom:0 ; left: 35%;')
+          .position-absolute.p-0.m-0.w-100.d-flex.justify-content-center(style='bottom:0 ; left: 0%;')            
             audio(controls)            
               source(src="@/assets/curso/intro/Slide_6.mp3" type="audio/mpeg")             
 
@@ -123,11 +123,11 @@
 
         br        
 
-        .bloque-texto-g.color-acento-botones.position-relative(data-aos="fade-right" style="background-color: #066B93; padding: 3rem !important")
+        .bloque-texto-g.color-acento-botones.position-relative.p-3.p-sm-4.p-md-5(data-aos="fade-right" style="background-color: #066B93; padding: 3rem !important")
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/intro/img02.png')})`}"
           )
-            .imagen-superior.position-absolute(style='bottom:0 ; left: -0%;'): img(src='@/assets/curso/intro/img03.png')
+            .imagen-superior.position-absolute.d-none.d-lg-block(style='bottom:-10% ; left: -0%;'): img(src='@/assets/curso/intro/img03.png')
           .bloque-texto-g__texto.px-5.py-4
             p.mb-0 La distribución de la mercancía tiene como propósito llevar de la manera más eficiente la cantidad correcta de producto desde su origen al lugar adecuado, en el tiempo requerido y al menor costo. Para hacerlo posible, se debe determinar la preparación de carga, permitiendo, de manera segura, maniobrar, transportar, almacenar e identificar fácilmente el material que contiene.
     
@@ -273,10 +273,10 @@ b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b_
     transform: rotate(360deg);
 
 
-
-.bloque-texto-g__img
-    width: 40%;
-
 .bloque-texto-g__texto
-  width: 68%;
+   width: 68%;
+
+@media (max-width: 992px)
+  .bloque-texto-g__texto
+      width: 100%;
 </style>
