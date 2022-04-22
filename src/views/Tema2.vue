@@ -42,29 +42,29 @@
 
     p.mb-5 Entre los materiales más utilizados para el embalaje de la mercancía a transportar se encuentran:        
 
-    .row.mb-5
-      .col-lg-3
+    .row.mb-5.justify-content-center
+      .col-6.col-lg-3.mb-3.mb-lg-0
         .tarjeta-avatar(data-aos="fade-right")
           img.w-25(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop')          
-          .tarjeta.color-secundario
+          .tarjeta.color-secundario.w-100
             .p-4
               p.text-center Papel y cartón, que se utilizan para envíos que no necesitan una gran protección, sus principales ventajas son su bajo volumen y costo.
-      .col-lg-3
-        .tarjeta-avatar(data-aos="fade-left")
+      .col-6.col-lg-3.mb-3.mb-lg-0
+        .tarjeta-avatar.w-100(data-aos="fade-left")
           img.w-25(src='@/assets/curso/tema2/img04.svg' alt='AvatarTop')          
-          .tarjeta.color-secundario
+          .tarjeta.color-secundario.w-100
             .p-4             
               p.text-center Madera se utiliza en pallet, cajas o toneles.
-      .col-lg-3
-        .tarjeta-avatar(data-aos="fade-right")
+      .col-6.col-lg-3.mb-3.mb-lg-0
+        .tarjeta-avatar.w-100(data-aos="fade-right")
           img.w-25(src='@/assets/curso/tema2/img05.svg' alt='AvatarTop')          
-          .tarjeta.color-secundario
+          .tarjeta.color-secundario.w-100
             .p-4              
               p.text-center Metal en contenedores, cajas y bidones.
-      .col-lg-3
-        .tarjeta-avatar(data-aos="fade-left")
+      .col-6.col-lg-3.mb-3.mb-lg-0
+        .tarjeta-avatar.w-100(data-aos="fade-left")
           img.w-25(src='@/assets/curso/tema2/img06.svg' alt='AvatarTop')          
-          .tarjeta.color-secundario
+          .tarjeta.color-secundario.w-100
             .p-4              
               p.text-center Plástico, tienen la tendencia actual a utilizarse sobre todo los que son reciclables.
 
@@ -82,7 +82,7 @@
 
     br
     .row.mb-5
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         .tarjeta-avatar-b(data-aos="fade-left")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/img08.svg' alt='AvatarTop')
@@ -90,7 +90,7 @@
             .p-4
               h4 Monouso
               p Se desechan una vez son utilizados, por lo general son de cartón ondulado o madera de baja calidad. 
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         .tarjeta-avatar-b(data-aos="fade-right")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/img09.svg' alt='AvatarTop')          
@@ -103,7 +103,7 @@
     
 
     .row.align-items-start.mb-5(data-aos="fade-left")
-      .col-lg-3.col-md-6.col-sm-7.indicador__container(@mouseover="mostrarIndicador = false")
+      .col-lg-3.col-md-6.col-sm-7.indicador__container.mb-3.mb-lg-0(@mouseover="mostrarIndicador = false")
         .indicador--click(v-if="mostrarIndicador")
         .tarjeta-avatar.tema9-zoom(@mouseover="mostrar=1" @mouseleave="mostrar = 0")
           img.w-25(src='@/assets/curso/tema2/img10.svg' alt='AvatarTop')                    
@@ -113,7 +113,7 @@
                 img(src='@/assets/curso/tema2/img14.svg')
             p.mx-4.text-center.mb-3 <b>Embalaje combinado</b>
             p.text-center(v-if="this.mostrar==1") Reúne diversos envases en un mismo embalaje para su manipulación y transporte.
-      .col-lg-3.col-md-6.col-sm-7
+      .col-lg-3.col-md-6.col-sm-7.mb-3.mb-lg-0
         .tarjeta-avatar.tema9-zoom(@mouseover="mostrar=2" @mouseleave="mostrar = 0")
           img.w-25(src='@/assets/curso/tema2/img11.svg' alt='AvatarTop')          
           .tarjeta.color-primario--borde.w-100.px-4
@@ -122,7 +122,7 @@
                 img(src='@/assets/curso/tema2/img15.svg')
             p.mx-4.text-center.mb-3 <b>Embalaje compuesto</b>
             p.text-center(v-if="this.mostrar==2") Está constituido por un recipiente interior de plástico, vidrio o cerámico y por una estructura exterior de metal, madera, cartón, plástico, etc., formando un conjunto indisociable.
-      .col-lg-3.col-md-6.col-sm-7
+      .col-lg-3.col-md-6.col-sm-7.mb-3.mb-lg-0
         .tarjeta-avatar.tema9-zoom(@mouseover="mostrar=3" @mouseleave="mostrar = 0")
           img.w-25(src='@/assets/curso/tema2/img12.svg' alt='AvatarTop')          
           .tarjeta.color-secundario--borde.w-100.px-4
@@ -131,7 +131,7 @@
                 img(src='@/assets/curso/tema2/img16.svg')
             p.mx-4.text-center.mb-3 <b>Embalaje exterior</b>
             p.text-center(v-if="this.mostrar==3") Recubrimiento externo de papel, cartón, plástico o cualquier otro material liviano protector o absorbente con el que se puede recubrir y proteger un envase o embalaje.
-      .col-lg-3.col-md-6.col-sm-7
+      .col-lg-3.col-md-6.col-sm-7.mb-3.mb-lg-0
         .tarjeta-avatar.tema9-zoom(@mouseover="mostrar=4" @mouseleave="mostrar = 0")
           img.w-25(src='@/assets/curso/tema2/img13.svg' alt='AvatarTop')          
           .tarjeta.color-primario--borde.w-100.px-4

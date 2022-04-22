@@ -8,8 +8,8 @@
       h1 Equipos y herramientas de cargue y descargue
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-4
-        .imagen-adornos-flotantes-tema3.d-flex.justify-content-center          
+      .col-8.col-lg-4
+        .imagen-adornos-flotantes-tema3.d-flex.justify-content-center.mb-5.mb-lg-0          
             img(src='@/assets/curso/tema3/img01.png')
             .imagen-adornos-flotantes-tema3__img1: img(src="@/assets/curso/tema3/bolita1.png" style="left: 20%; right:  ; top: -10%; bottom:  ; width: 47px")
             .imagen-adornos-flotantes-tema3__img2: img(src="@/assets/curso/tema3/bolita2.png" style="left: ; right:-5% ; top:-8% ; bottom: ; width: 73px ")
@@ -20,13 +20,13 @@
         p.mb-0 Para almacenes que no sobrepasan los 40 a 50 metros se puede seguir el procedimiento que se indica a continuación:
         
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         div.p-0.position-relative(data-aos="fade-right")
           figure
             img(src="@/assets/curso/tema3/img02.png")
           div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:100px;  background-color: rgba(255, 247, 230, 0.85)")
             p.mt-2.mb-0 Cargar los pallets directamente desde la estantería.
-      .col-lg-6(style="position: relative")
+      .col-lg-6.mb-3.mb-lg-0(style="position: relative")
         div.p-0.position-relative(data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema3/img03.png")

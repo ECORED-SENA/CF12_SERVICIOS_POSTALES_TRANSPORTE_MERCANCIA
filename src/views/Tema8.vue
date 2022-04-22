@@ -9,8 +9,8 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-up")
       .col-lg-1
-      .col-lg-4
-        .imagen-adornos-flotantes-tema3.d-flex.justify-content-center          
+      .col-8.col-lg-4
+        .imagen-adornos-flotantes-tema3.d-flex.justify-content-center.mb-3.mb-lg-0          
             img(src='@/assets/curso/tema8/img01.png')
             .imagen-adornos-flotantes-tema3__img1: img(src="@/assets/curso/tema3/bolita1.png" style="left: 5%; right:  ; top: -0%; bottom:  ; width: 47px")
             .imagen-adornos-flotantes-tema3__img2: img(src="@/assets/curso/tema3/bolita2.png" style="left: ; right:0% ; top:10% ; bottom: ; width: 73px ")
@@ -29,7 +29,7 @@
             img(src='@/assets/curso/tema8/img02.png')            
       .row
         .col-md-6
-          figure
+          figure.mb-3.mb-lg-0
             img(src='@/assets/curso/tema8/img03.png')
         .col-md-6.mb-4.mb-md-0(style="text-align: left!important;")
           h4 Verificación del envío
@@ -39,11 +39,11 @@
           h4 Descarga
           p.mb-0 Se debe procurar realizar esta maniobra en zonas llanas apilando la mercancía de manera correcta. 
         .col-md-6
-          figure
+          figure.mb-3.mb-lg-0
             img(src='@/assets/curso/tema8/img04.png')
       .row
         .col-md-6
-          figure
+          figure.mb-3.mb-lg-0
             img(src='@/assets/curso/tema8/img05.png')
         .col-md-6.mb-4.mb-md-0(style="text-align: left!important;")
           h4 Control cuantitativo
@@ -53,11 +53,11 @@
           h4 Control cualitativo
           p.mb-0 Se extrae una muestra del envío para comprobar el estado del mismo y rechazar la existencia de daños, es importante dejar por escrito el resultado de la inspección.  
         .col-md-6
-          figure
+          figure.mb-3.mb-lg-0
             img(src='@/assets/curso/tema8/img06.png')
       .row
         .col-md-6
-          figure
+          figure.mb-3.mb-lg-0
             img(src='@/assets/curso/tema8/img07.png')
         .col-md-6.mb-4.mb-md-0(style="text-align: left!important;")
           h4 Registro de la mercancía
@@ -67,11 +67,11 @@
           h4 Reacondicionamiento físico
           p.mb-0 El Sistema de Gestión del Almacén (SGA) asignará una ubicación a cada referencia, en ocasiones puede ser necesario realizar la desconsolidación de la mercancía.
         .col-md-6
-          figure
+          figure.mb-3.mb-lg-0
             img(src='@/assets/curso/tema8/img08.png')
       .row
         .col-md-6
-          figure
+          figure.mb-3.mb-lg-0
             img(src='@/assets/curso/tema8/img09.png')
         .col-md-6.mb-4.mb-md-0(style="text-align: left!important;")
           h4 Etiquetado
@@ -81,7 +81,7 @@
           h4 Ubicación en la zona asignada
           p.mb-0 Se debe ubicar la mercancía en el lugar asignado.
         .col-md-6
-          figure
+          figure.mb-3.mb-lg-0
             img(src='@/assets/curso/tema8/img10.png')
       
     Separador

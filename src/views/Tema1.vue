@@ -13,13 +13,13 @@
     .row.mb-5
       .col-1
       .col-lg-5.d-flex
-        div.px-5.py-3(style="background-color: #A4A3FF")          
+        div.px-5.py-3.mb-3.mb-lg-0(style="background-color: #A4A3FF")          
           div.p-0.mb-3
             h4.p-1.d-inline(style="background-color: #E3E7FF")  01
           p.mb-0 Disposición de materia prima e insumos para llevar a cabo el proceso productivo.
 
       .col-lg-5.d-flex
-        div.px-5.py-3.w-100(style="background-color: #A4A3FF")          
+        div.px-5.py-3.w-100.mb-3.mb-lg-0(style="background-color: #A4A3FF")          
           div.p-0.mb-3
             h4.p-1.d-inline(style="background-color: #E3E7FF")  02
           p.mb-0 Llegada de los productos a los clientes.
@@ -27,7 +27,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")      
       .col-lg-4
-        .imagen-adornos-flotantes-tema3.d-flex.justify-content-center          
+        .imagen-adornos-flotantes-tema3.d-flex.justify-content-center.mb-4.mb-lg-0          
             img(src='@/assets/curso/tema1/img01.png')
             .imagen-adornos-flotantes-tema3__img1: img(src="@/assets/curso/tema3/bolita1.png" style="left: 5%; right:  ; top: 10%; bottom:  ; width: 47px")
             .imagen-adornos-flotantes-tema3__img2: img(src="@/assets/curso/tema3/bolita2.png" style="left: ; right:-2% ; top:2% ; bottom: ; width: 73px ")

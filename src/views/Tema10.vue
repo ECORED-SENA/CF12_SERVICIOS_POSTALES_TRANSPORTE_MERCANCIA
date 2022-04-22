@@ -8,7 +8,7 @@
       h1 Pesaje
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-2
+      .col-8.col-lg-2
         .imagen-adornos-flotantes-tema4.d-flex.justify-content-center          
             img(style="width:144px" src='@/assets/curso/tema10/img01.svg')
             .imagen-adornos-flotantes-tema4__img1: img(src="@/assets/curso/tema4/bolita1.png" style="left: 6%; right:  ; top: -12%; bottom:  ; width: 26px")
@@ -50,7 +50,7 @@
     h4 - Plataformas de pesaje   
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-1
-      .col-lg-4
+      .col-8.col-lg-4
         .imagen-adornos-flotantes-tema4.d-flex.justify-content-center          
             img(src='@/assets/curso/tema10/img04.png')
             .imagen-adornos-flotantes-tema4__img1: img(src="@/assets/curso/tema4/bolita1.png" style="left: 0%; right:  ; top: 5%; bottom:  ; width: 26px")
@@ -62,8 +62,8 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")         
       .col-lg-7
         p.mb-3 <b><i>- Receptores de cargas especiales</i></b>
-        p.mb-0 Corresponden a plataformas generalmente metálicas empotradas en el suelo para recibir la carga de pesadas mercancías. Son de tipos y tamaños diferentes dependiendo de la carga máxima que puedan cifrar. Las más pequeñas son conocidas como básculas de piso.
-      .col-lg-4
+        p.mb-3.mb-lg-0 Corresponden a plataformas generalmente metálicas empotradas en el suelo para recibir la carga de pesadas mercancías. Son de tipos y tamaños diferentes dependiendo de la carga máxima que puedan cifrar. Las más pequeñas son conocidas como básculas de piso.
+      .col-8.col-lg-4
         .imagen-adornos-flotantes-tema4.d-flex.justify-content-center          
             img(src='@/assets/curso/tema10/img05.png')
             .imagen-adornos-flotantes-tema4__img1: img(src="@/assets/curso/tema4/bolita1.png" style="left: 3%; right:  ; top: -5%; bottom:  ; width: 26px")

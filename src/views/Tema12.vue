@@ -9,8 +9,8 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-1
-      .col-lg-4
-        .imagen-adornos-flotantes-tema3.d-flex.justify-content-center          
+      .col-8.col-lg-4
+        .imagen-adornos-flotantes-tema3.d-flex.justify-content-center.mb-4.mb-lg-0
             img(src='@/assets/curso/tema12/img01.png')
             .imagen-adornos-flotantes-tema3__img1: img(src="@/assets/curso/tema3/bolita1.png" style="left: -3%; right:  ; top: -13%; bottom:  ; width: 47px")
             .imagen-adornos-flotantes-tema3__img2: img(src="@/assets/curso/tema3/bolita2.png" style="left: ; right: -8% ; top:-5% ; bottom: ; width: 73px ")
@@ -28,7 +28,7 @@
 
     .row.justify-content-center.align-items-top.mb-5.mx-0(data-aos="fade-right" style="background-color: #CDD2FB")
       .col-lg-6.p-0.pe-2
-        .tabla-a.tabla1.color-acento-botones(data-aos="fade-up")
+        .tabla-a.tabla1.color-acento-botones
           table            
             thead
               tr
@@ -81,9 +81,8 @@
                   img(src='@/assets/curso/tema12/img10.svg')
                 td No manipular con las horquillas en esta cara.
                 td Caras de la unidad de carga donde no se deben colocar las horquillas de las carretillas manuales.
-      .col-lg-6.p-0.ps-2.d-flex
-        div(style="background-color: #F6F6F6")
-          .tabla-a.tabla1.color-acento-botones(data-aos="fade-down")
+      .col-lg-6.p-0.ps-2.d-flex        
+          .tabla-a.tabla1.color-acento-botones
             table            
               thead
                 tr
@@ -145,12 +144,12 @@
       table(data-aos="fade-right")        
         thead
           tr
-            th(style="border-left: 0px !important") Modo de transporte
+            th(style="border-left: 0px !important; word-wrap: break-word") Modo de transporte
             th(colspan=2) Denominaciones
             th Denominación usual            
         tbody
           tr
-            td.centrado(style="border-left: 0px !important" rowspan=2) Marítimo.
+            td.centrado(style="border-left: 0px !important; word-wrap: break-word" rowspan=2) Marítimo.
             td Código marítimo internacional de mercancías peligrosas.
             td <i>International Maritime Dangerous Goods</i> (IMDG).
             td Código IMDG.

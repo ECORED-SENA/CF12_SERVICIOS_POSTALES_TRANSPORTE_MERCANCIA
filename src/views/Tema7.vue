@@ -11,8 +11,8 @@
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-1
-      .col-lg-4
-        .imagen-adornos-flotantes-tema3.d-flex.justify-content-center          
+      .col-8.col-lg-4
+        .imagen-adornos-flotantes-tema3.d-flex.justify-content-center.mb-3.mb-lg-0          
             img(src='@/assets/curso/tema7/img01.png')
             .imagen-adornos-flotantes-tema3__img1: img(src="@/assets/curso/tema3/bolita1.png" style="left: 5%; right:  ; top: -0%; bottom:  ; width: 47px")
             .imagen-adornos-flotantes-tema3__img2: img(src="@/assets/curso/tema3/bolita2.png" style="left: ; right: -3% ; top:0% ; bottom: ; width: 73px ")
@@ -132,7 +132,7 @@
     p.mb-4 Teniendo en cuenta que esta es una de las actividades más costosas en el almacén, se deben realizar procesos operativos eficientes. Por ejemplo, reducir al mínimo las distancias recorridas por los operarios o por los equipos, sin descuidar la calidad del servicio en el almacén.
     p.mb-4 A continuación, se especifican los tipos de picking, de acuerdo con diferentes criterios:
 
-    .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-down")          
+    .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-right")          
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-top                      
           .col-lg-6                
@@ -193,16 +193,17 @@
       .col-lg-7.py-5        
         p.mb-4 Si el almacén cuenta con mercancía de todo tipo, gran gama de productos y con características diferentes, al momento del alistamiento de la mercancía la preparación de pedidos se puede hacer lenta y complicada, por ello es importante que el control en las zonas del almacén esté determinado por las características de los artículos, tamaño y salida comercial. Adicionalmente, para optimizar la velocidad y calidad de los pedidos es importante tener claras u ordenadas las zonas donde se encuentra la mercancía en el almacén.
         p.mb-0 Con el fin de tener control sobre el proceso de picking, existen varios sistemas de seguimiento y control de pedidos que permiten acelerar el proceso y evitar la pérdida de información, los cuales son conocidos como SGA (Sistema de Gestión de Almacén) en estos se pueden ir introduciendo pedidos de mayor urgencia en ordenadores personales de almacén conforme cambia su prioridad. Uno de los sistemas más conocidos es el ERP, estos sistemas se caracterizan principalmente por controlar y cambiar la información relevante en tiempo real, lo cual supone un aumento en la productividad y mejor aprovechamiento del tiempo.
-      .col-lg-4.pt-4        
-        .imagen-adornos-flotantes-tema3.d-flex.justify-content-center
+      .col-8.col-lg-4.pt-4        
+        .imagen-adornos-flotantes-tema3.d-flex.justify-content-center.mb-3.mb-lg-0
             img(src='@/assets/curso/tema7/img26.png')
             .imagen-adornos-flotantes-tema3__img1: img(src="@/assets/curso/tema3/bolita1.png" style="left: -5%; right:  ; top: -12%; bottom:  ; width: 47px")
             .imagen-adornos-flotantes-tema3__img2: img(src="@/assets/curso/tema3/bolita2.png" style="left: ; right: 0% ; top:-0% ; bottom: ; width: 73px ")
             .imagen-adornos-flotantes-tema3__img3: img(src="@/assets/curso/tema3/bolita3.png" style="left: 13% ; right: ; top: ; bottom: 0% ; width: 47px ")
             .imagen-adornos-flotantes-tema3__img4: img(src="@/assets/curso/tema3/cajita1.png" style="left:  ; right: 0% ; top: ; bottom: -15% ; width: 142px ")      
       .col-lg-1
-
-        
+   
+    br
+    br
 </template>
 
 <script>

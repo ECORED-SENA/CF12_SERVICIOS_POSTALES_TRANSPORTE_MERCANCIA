@@ -9,8 +9,8 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-1
-      .col-lg-4
-        .imagen-adornos-flotantes-tema3.d-flex.justify-content-center          
+      .col-8.col-lg-4
+        .imagen-adornos-flotantes-tema3.d-flex.justify-content-center.mb-3.mb-lg-0          
             img(src='@/assets/curso/tema6/img01.png')
             .imagen-adornos-flotantes-tema3__img1: img(src="@/assets/curso/tema3/bolita1.png" style="left: 35%; right:  ; top: -10%; bottom:  ; width: 47px")
             .imagen-adornos-flotantes-tema3__img2: img(src="@/assets/curso/tema3/bolita2.png" style="left: ; right:-2% ; top:2% ; bottom: ; width: 73px ")
@@ -51,21 +51,21 @@
                     p.mb-4 - El operario debe buscar los artículos en las zonas respectivas y llevarlos a la zona de manipulación o embalaje antes de su entrega.
                     p.mb-0 Las unidades para entregar al cliente o enviar a transporte y el resto del procedimiento se realiza de forma manual.
 
-                  .col-6.col-lg-4.col-xl-2
+                  .col-6.col-lg-4.col-xl-2.mb-3.mb-lg-0
                     div.p-0.position-relative
                       figure
                         img(src="@/assets/curso/tema6/img05.png")
                       div.p-2.w-100.position-absolute(style="font-size: 15px; bottom: 0%; height:120px;  background-color: rgba(255, 247, 230, 0.85)")
                         p.mt-2.mb-0 El operario camina entre los pasillos .
 
-                  .col-6.col-lg-4.col-xl-2
+                  .col-6.col-lg-4.col-xl-2.mb-3.mb-lg-0
                     div.p-0.position-relative
                       figure
                         img(src="@/assets/curso/tema6/img06.png")
                       div.p-2.w-100.position-absolute(style="font-size: 15px; bottom: 0%; height:120px;  background-color: rgba(255, 247, 230, 0.85)")
                         p.mt-2.mb-0 Recoge los productos con las manos.
                   
-                  .col-6.col-lg-4.col-xl-2
+                  .col-6.col-lg-4.col-xl-2.mb-3.mb-lg-0
                     div.p-0.position-relative
                       figure
                         img(src="@/assets/curso/tema6/img07.png")
