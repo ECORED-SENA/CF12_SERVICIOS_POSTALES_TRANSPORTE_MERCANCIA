@@ -47,26 +47,26 @@
         .tarjeta-avatar(data-aos="fade-right")
           img.w-25(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop')          
           .tarjeta.color-secundario
-            .px-5.py-4
-              p Papel y cartón, que se utilizan para envíos que no necesitan una gran protección, sus principales ventajas son su bajo volumen y costo.
+            .p-4
+              p.text-center Papel y cartón, que se utilizan para envíos que no necesitan una gran protección, sus principales ventajas son su bajo volumen y costo.
       .col-lg-3
         .tarjeta-avatar(data-aos="fade-left")
           img.w-25(src='@/assets/curso/tema2/img04.svg' alt='AvatarTop')          
           .tarjeta.color-secundario
             .p-4             
-              p Madera se utiliza en pallet, cajas o toneles.
+              p.text-center Madera se utiliza en pallet, cajas o toneles.
       .col-lg-3
         .tarjeta-avatar(data-aos="fade-right")
           img.w-25(src='@/assets/curso/tema2/img05.svg' alt='AvatarTop')          
           .tarjeta.color-secundario
             .p-4              
-              p Metal en contenedores, cajas y bidones.
+              p.text-center Metal en contenedores, cajas y bidones.
       .col-lg-3
         .tarjeta-avatar(data-aos="fade-left")
           img.w-25(src='@/assets/curso/tema2/img06.svg' alt='AvatarTop')          
           .tarjeta.color-secundario
             .p-4              
-              p Plástico, tienen la tendencia actual a utilizarse sobre todo los que son reciclables.
+              p.text-center Plástico, tienen la tendencia actual a utilizarse sobre todo los que son reciclables.
 
     br
     .row.justify-content-center.align-items-center.mb-5
@@ -102,7 +102,7 @@
     p.mb-5 Según su función y características físicas, los tipos de embalaje que normalmente se utilizan para el transporte se pueden clasificar en:
     
 
-    .row.mb-5(data-aos="fade-left")
+    .row.align-items-start.mb-5(data-aos="fade-left")
       .col-lg-3.col-md-6.col-sm-7.indicador__container(@mouseover="mostrarIndicador = false")
         .indicador--click(v-if="mostrarIndicador")
         .tarjeta-avatar.tema9-zoom(@mouseover="mostrar=1" @mouseleave="mostrar = 0")

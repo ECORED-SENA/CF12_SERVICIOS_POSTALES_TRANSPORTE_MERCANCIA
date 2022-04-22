@@ -12,13 +12,15 @@
     br
     br
     br
+    br
+    br
     .cajon.color-primario.py-5.mb-5.position-relative(data-aos="fade-left" style="background-color: #FEECC0")
       .row.justify-content-center.align-items-center
-        .col-lg-1
-        .col-lg-7.p-0
+        .col-1.d-none.d-lg-block
+        .col-10.col-xl-7.p-0
           p.mb-0 Apreciado participante, le damos la bienvenida a este momento de aprendizaje orientado a las herramientas para operar el proceso de cargue y descargue de mercancías según la normativa de higiene y seguridad. Antes de empezar le sugerimos revisar la siguiente infografía para identificar el contexto de aprendizaje.
-        .col-lg-4
-          .imagen-adornos-flotantes.imagen-superior.position-absolute(style='bottom:0% ; right: -0%;')
+        .col-1.col-xl-4
+          .imagen-adornos-flotantes.imagen-superior.position-absolute.d-none.d-xl-block(style='bottom:0% ; right: -0%;')
             img(src='@/assets/curso/intro/img01.png')                      
             .imagen-adornos-flotantes__img1: img(src="@/assets/curso/intro/bolita1.png" style="left: 0%; right:  ; top: 30%; bottom:  ; width: 47px")
             .imagen-adornos-flotantes__img2: img(src="@/assets/curso/intro/bolita2.png" style="left: ; right:-0% ; top:10% ; bottom: ; width: 73px ")
@@ -168,11 +170,12 @@ export default {
     border: 2px solid #133D60;
     background-color: #133D60;
 
-.fa-angle-left:before
-  color: white
+.tarjeta.tarjeta--gris
+  .fa-angle-left:before
+    color: white !important
 
-.fa-angle-right:before
-  color: white
+  .fa-angle-right:before
+    color: white !important
 
 .pasos-b.color-acento-contenido .pasos-b__header__item--active .pasos-b__header__item__dot
   border: 3px solid #43A99B;

@@ -22,7 +22,7 @@
 
     p.mb-4 Se conocen los siguientes métodos de cohesión de la mercancía: 
 
-    .tarjetas1.mb-5(data-aos="fade-left")
+    .tema5.tarjetas1.mb-5(data-aos="fade-left")
       .row.justify-content-center.align-items-center        
             .col-lg-6
               .TFcontainer.mb-3
@@ -81,38 +81,39 @@ export default {
 </script>
 
 <style lang="sass">
+.tema5.tarjetas1
 
-.TFcontainer
-  position: relative
-  width: 100%
-  border-radius: 10px
+  .TFcontainer
+    position: relative
+    width: 100%
+    border-radius: 10px
 
-.TFimage
-  display: block
-  width: 100%
-  //height: 587px
-  object-fit: cover !important
-  border-radius: 6px 6px 0 0
-  border-radius: 10px
-
-.TFoverlay
-  position: absolute
-  bottom: 0
-  left: 0
-  right: 0
-  border-radius: 10px
-  overflow: hidden
-  width: 100%
-  height: 85px
-  transition: .5s ease
-  background-color: rgba(255, 247, 230, 0.85)
-
-.TFcontainer:hover .TFoverlay
-  height: 100%
-
-@media screen and (max-width: 991px)
   .TFimage
-    height: 200px
+    display: block
+    width: 100%
+    //height: 587px
+    object-fit: cover !important
+    border-radius: 6px 6px 0 0
+    border-radius: 10px
+
+  .TFoverlay
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    border-radius: 10px
+    overflow: hidden
+    width: 100%
+    height: 85px
+    transition: .5s ease
+    background-color: rgba(255, 247, 230, 0.85)
+
+  .TFcontainer:hover .TFoverlay
+    height: 50%
+
+  // @media screen and (max-width: 991px)
+  //   .TFimage
+  //     height: 200px
 
 .tabla-a.tabla2
   table

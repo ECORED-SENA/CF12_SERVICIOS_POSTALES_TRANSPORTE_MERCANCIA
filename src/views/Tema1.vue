@@ -54,7 +54,7 @@
         .col-lg-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img03.png')
-            .TFoverlay
+            .TFoverlay(style="background-color: #FFDE96")
               div.p-4.pt-5
                 img.mb-4(style="width:79px" src="@/assets/curso/tema1/img08.svg")
                 h4 Rapidez
@@ -62,7 +62,7 @@
         .col-lg-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img04.png')
-            .TFoverlay
+            .TFoverlay(style="background-color: #FFDE96")
               div.p-4.pt-5
                 img.mb-4(style="width:79px" src="@/assets/curso/tema1/img09.svg")
                 h4 Seguridad
@@ -70,7 +70,7 @@
         .col-lg-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img05.png')
-            .TFoverlay
+            .TFoverlay(style="background-color: #FFDE96")
               div.p-4.pt-5
                 img.mb-4(style="width:68px" src="@/assets/curso/tema1/img10.svg")
                 h4 Flexibilidad
@@ -81,7 +81,7 @@
         .col-lg-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img11.png')
-            .TFoverlay
+            .TFoverlay(style="background-color: #FFDE96")
               div.p-4.pt-5
                 img.mb-4(style="width:99px" src="@/assets/curso/tema1/img13.svg")
                 h4 Costos
@@ -89,7 +89,7 @@
         .col-lg-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img12.png')
-            .TFoverlay
+            .TFoverlay(style="background-color: #FFDE96")
               div.p-4.pt-5
                 img.mb-4(style="width:94px" src="@/assets/curso/tema1/img14.svg")
                 h4 Limitaciones de carga
@@ -99,48 +99,48 @@
     p.mb-5 En cuanto a las modalidades de los servicios, en el transporte aéreo se encuentran los siguientes:
 
     .tarjetas1.mb-4(data-aos="fade-left")
-      .row
-        .col-lg-4.d-flex
-          .TFcontainer.mb-3.py-4(style="background-color: #FFE29E")
+      .row.justify-content-center
+        .col-sm-8.col-xl-4.d-flex
+          .TFcontainer.mb-3.py-5(style="background-color: #FFE29E")
             .row.justify-content-center.mb-2
-              .col-lg-4
+              .col-md-8.col-xl-4
                 img.TFimage(src='@/assets/curso/tema1/img15.svg')
             h3.text-center Servicios regulares 
             .TFoverlay2(style="background-color: #8D9BFF")
               div.p-4.pt-3
                 .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3
+                  .col-3
                     img.TFimage(src='@/assets/curso/tema1/img15.svg')      
-                  .col-lg-9 
+                  .col-9 
                     h3.mb-0 Servicios regulares 
                 p.mb-0 Corresponden a los servicios de transporte aéreo de pasajeros y carga, incluidos en el tráfico programado para una compañía aérea, con horarios y tarifas anunciados.
-        .col-lg-4.d-flex
-          .TFcontainer.mb-3.py-4(style="background-color: #8D9BFF")
+        .col-sm-8.col-xl-4.d-flex
+          .TFcontainer.mb-3.py-5(style="background-color: #8D9BFF")
             .row.justify-content-center.mb-2
-              .col-lg-4
+              .col-md-8.col-xl-4
                 img.TFimage(src='@/assets/curso/tema1/img16.svg')
             h3.text-center Servicios chárter 
             br
             .TFoverlay2(style="background-color: #FFE29E")
               div.p-4.pt-3
                 .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3
+                  .col-3
                     img.TFimage(src='@/assets/curso/tema1/img16.svg')      
-                  .col-lg-9 
+                  .col-9 
                     h3.mb-0 Servicios chárter 
                 p.mb-0 Servicios de transporte que, por lo general, se realiza mediante el arrendamiento de aeronaves completas para un recorrido determinado, sin que tengan que estar asignadas a una zona geográfica concreta, tarifas y frecuencias fijas.
-        .col-lg-4.d-flex
-          .TFcontainer.mb-3.py-4(style="background-color: #FFE29E")
+        .col-sm-8.col-xl-4.d-flex
+          .TFcontainer.mb-3.py-5(style="background-color: #FFE29E")
             .row.justify-content-center.mb-2
-              .col-lg-4
+              .col-md-8.col-xl-4
                 img.TFimage(src='@/assets/curso/tema1/img17.svg')
             h3.text-center Grupaje aéreo 
             .TFoverlay2(style="background-color: #8D9BFF")
               div.p-4.pt-3
                 .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3
+                  .col-3
                     img.TFimage(src='@/assets/curso/tema1/img17.svg')      
-                  .col-lg-9 
+                  .col-9 
                     h3.mb-0 Grupaje aéreo 
                 p.mb-0 Es el servicio de transporte bajo la modalidad de grupaje que presta un agente de carga aérea.
 
@@ -187,7 +187,7 @@
 
     p.mb-4 Adicionalmente, se distinguen las siguientes modalidades principales de servicios de transporte ferroviario:
 
-    .tema3.mb-5(data-aos="fade-down")  
+    .tema3.mb-5(data-aos="fade-right")  
       AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
         .row.justify-content-center.align-items-top(titulo="Transporte combinado")
           .col-md-7.pt-5
@@ -334,7 +334,7 @@
 
     
     h4.mb-4 Fluvial  
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-up")      
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")      
       .col-lg-4
         .imagen-adornos-flotantes-tema3.d-flex.justify-content-center          
             img(src='@/assets/curso/tema1/img44.png')

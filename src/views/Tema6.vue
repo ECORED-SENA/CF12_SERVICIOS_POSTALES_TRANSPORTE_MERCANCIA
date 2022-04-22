@@ -28,7 +28,7 @@
             figure
               img(src='@/assets/curso/tema6/img02.svg', alt='Texto que describa la imagen')              
 
-          div(x="16.9%" y="33.2%"  numero=" ")    
+          div(x="16.9%" y="34.5%"  numero=" ")    
             .tarjeta.p-4.mb-5          
               SlyderA(tipo="b")
                 .row.justify-content-center.align-items-top    
@@ -73,7 +73,7 @@
                         p.mt-2.mb-0 Lleva los productos a la zona de manipulación o embalaje.
 
             
-          div(x="23%" y="63.5%"  numero=" ")    
+          div(x="23%" y="66%"  numero=" ")    
             .tarjeta.p-4.mb-5          
               SlyderA(tipo="b")
                 .row.justify-content-center.align-items-top    
@@ -103,7 +103,7 @@
                   .col-lg-6
                     figure
                       img(src='@/assets/curso/tema6/img10.png')    
-          div(x="93.55%" y="63.2%"  numero=" ")  
+          div(x="93.55%" y="65.7%"  numero=" ")  
             .tarjeta.p-4.mb-5                    
                 .row.justify-content-center.align-items-top    
                   p.mb-4 <b>Automático</b>

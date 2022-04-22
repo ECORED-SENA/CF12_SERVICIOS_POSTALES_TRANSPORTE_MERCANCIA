@@ -18,17 +18,21 @@ caption
 .img-infografica-b__modal__btn-cerrar i    
   color: $color-sistema-texto !important
 
+.img-infografica__item__tooltip, .img-infografica-b__item__tooltip
+  background-color: transparent
+
 .tabs-c__tab--active
   span 
     font-weight: bold;
+    
 
 .tema9-zoom
   transition: transform .2s;
-  filter: brightness(50%);  
+  filter: saturate(100%);
   cursor: pointer
 .tema9-zoom:hover 
   transform: scale(1.11);
-  filter: brightness(100%);
+  filter: saturate(200%);
 
 
 
@@ -131,3 +135,8 @@ caption
   100%
     transform: scale(0.7, 0.7);
 
+.fa-angle-right:before 
+    color: $color-sistema-texto !important
+
+.fa-angle-left:before 
+    color: $color-sistema-texto !important

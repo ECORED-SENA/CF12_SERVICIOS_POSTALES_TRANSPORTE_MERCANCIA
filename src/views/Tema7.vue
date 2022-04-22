@@ -133,7 +133,8 @@
             p.mb-4 <b>Pick to box</b>
             p.mb-0 Se basa en extraer las referencias de forma agrupada, las cuales son introducidas directamente en las cajas de cada envío en el mismo punto de extracción del material, eliminando el proceso de separación posterior. 
           .col-lg-6
-            figure              img(src='@/assets/curso/tema7/img21.png') 
+            figure              
+              img(src='@/assets/curso/tema7/img21.png') 
 
         .row.justify-content-center.align-items-top                      
           .col-lg-6                
