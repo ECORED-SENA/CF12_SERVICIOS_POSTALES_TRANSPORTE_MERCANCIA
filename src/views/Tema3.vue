@@ -14,7 +14,7 @@
             .imagen-adornos-flotantes-tema3__img1: img(src="@/assets/curso/tema3/bolita1.png" style="left: 20%; right:  ; top: -10%; bottom:  ; width: 47px")
             .imagen-adornos-flotantes-tema3__img2: img(src="@/assets/curso/tema3/bolita2.png" style="left: ; right:-5% ; top:-8% ; bottom: ; width: 73px ")
             .imagen-adornos-flotantes-tema3__img3: img(src="@/assets/curso/tema3/bolita3.png" style="left: 31% ; right: ; top: ; bottom: -10% ; width: 47px ")
-            .imagen-adornos-flotantes-tema3__img4: img(src="@/assets/curso/tema3/cajita1.png" style="left: 14% ; right: ; top: ; bottom: -10% ; width: 103px ")
+            .imagen-adornos-flotantes-tema3__img4: img(src="@/assets/curso/tema3/cajita1.png" style="left: -5% ; right: ; top: ; bottom: -15% ; width: 80px ")
       .col-lg-8
         p.mb-4 Para que los diferentes vehículos de transporte realicen su actividad de forma óptima, es necesario disponer de una infraestructura adecuada. Por eso, es importante tener en cuenta que las manipulaciones de la mercancía deben ser mínimas, ya que esto repercute en ahorro de tiempo y costo, así como menor posibilidad de roturas y golpes. Lo ideal es trabajar de camión a estantería y viceversa. Sin embargo, en algunas ocasiones no es posible debido a las largas distancias entre estantería y camión, lo cual haría más demorado el tiempo de carga y descarga, así como la ocupación de muelles y tiempos de espera. Adicionalmente, cuando no existen acuerdos de calidad concertados, el producto debe pasar por un control de calidad.
         p.mb-0 Para almacenes que no sobrepasan los 40 a 50 metros se puede seguir el procedimiento que se indica a continuación:

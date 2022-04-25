@@ -15,7 +15,7 @@
             .imagen-adornos-flotantes-tema3__img1: img(src="@/assets/curso/tema3/bolita1.png" style="left: -3%; right:  ; top: -13%; bottom:  ; width: 47px")
             .imagen-adornos-flotantes-tema3__img2: img(src="@/assets/curso/tema3/bolita2.png" style="left: ; right: -8% ; top:-5% ; bottom: ; width: 73px ")
             .imagen-adornos-flotantes-tema3__img3: img(src="@/assets/curso/tema3/bolita3.png" style="left: 25% ; right: ; top: ; bottom: -10% ; width: 47px ")
-            .imagen-adornos-flotantes-tema3__img4: img(src="@/assets/curso/tema3/cajita1.png" style="left:  ; right: 0% ; top: ; bottom: -20% ; width: 142px ")
+            .imagen-adornos-flotantes-tema3__img4: img(src="@/assets/curso/tema3/cajita1.png" style="left:  ; right: -10% ; top: ; bottom: -10% ; width: 80px ")            
       .col-lg-7
         p.mb-4 Durante el proceso de la cadena logística resulta de gran importancia la comunicación entre sus agentes para alcanzar la eficacia en las operaciones de manipulación, almacenamiento y transporte, lo que se logra a través de la identificación de la mercancía mediante un lenguaje comprensible para la mayoría de las personas: símbolos gráficos. 
         p.mb-0 Para identificar mediante símbolos las unidades de carga se debe tomar como referencia la norma ISO 780 (figura 4).

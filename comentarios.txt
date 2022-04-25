@@ -1,0 +1,20 @@
+H1	Ajustado
+H2	Ajustado
+H11	Ajustado
+H14	Ajustado
+H18	Se elimina el pdf de la sintesis
+H20	Ajustado
+H23	Ajustado a ancho minimo de 576px
+H25	Ajustado a ancho minimo de 576px
+H27	Ajustado a ancho minimo de 576px
+H29	Ajustado a ancho minimo de 576px
+H30	Ajustado a ancho minimo de 576px
+H31	Ajustado a ancho minimo de 576px
+H32	Ajustado a ancho minimo de 576px
+H35	Ajustado a ancho minimo de 576px
+H36	Ajustado a ancho minimo de 576px
+H37	Ajustado a ancho minimo de 576px
+H38	Ajustado a ancho minimo de 576px
+H41	Ajustado a ancho minimo de 576px
+H45	Ajustado
+H46.	Ajustado

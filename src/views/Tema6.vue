@@ -15,7 +15,7 @@
             .imagen-adornos-flotantes-tema3__img1: img(src="@/assets/curso/tema3/bolita1.png" style="left: 35%; right:  ; top: -10%; bottom:  ; width: 47px")
             .imagen-adornos-flotantes-tema3__img2: img(src="@/assets/curso/tema3/bolita2.png" style="left: ; right:-2% ; top:2% ; bottom: ; width: 73px ")
             .imagen-adornos-flotantes-tema3__img3: img(src="@/assets/curso/tema3/bolita3.png" style="left: 28% ; right: ; top: ; bottom: -5% ; width: 47px ")
-            .imagen-adornos-flotantes-tema3__img4: img(src="@/assets/curso/tema3/cajita1.png" style="left: 0% ; right: ; top: ; bottom: -10% ; width: 142px ")
+            .imagen-adornos-flotantes-tema3__img4: img(src="@/assets/curso/tema3/cajita1.png" style="left: -5% ; right: ; top: ; bottom: -5% ; width: 80px ")
       .col-lg-7
         p.mb-0 Durante la etapa de preparación de pedidos se garantiza que el producto es el correcto y que el embalaje es el adecuado para que llegue en óptimas condiciones a su destino. El objetivo principal de esta actividad es organizar y preparar los productos para ser embalados; si esta etapa se desarrolla de manera eficaz es muy probable tener mejores resultados durante la entrega de los pedidos.
 
@@ -74,7 +74,7 @@
 
             
           div(x="23%" y="66%"  numero=" ")    
-            .tarjeta.p-4.mb-5          
+            .tarjeta.tarjeta.tarjeta--gris.p-4.mb-5          
               SlyderA(tipo="b")
                 .row.justify-content-center.align-items-top    
                   p.mb-4 <b>Semiautomático</b>
@@ -104,7 +104,7 @@
                     figure
                       img(src='@/assets/curso/tema6/img10.png')    
           div(x="93.55%" y="65.7%"  numero=" ")  
-            .tarjeta.p-4.mb-5                    
+            .tarjeta.tarjeta--gris.tarjeta.p-4.mb-5                    
                 .row.justify-content-center.align-items-top    
                   p.mb-4 <b>Automático</b>
                   .col-lg-6                
@@ -139,6 +139,9 @@ export default {
 </script>
 
 <style lang="sass">
+.fa-times:before
+  color: white
+
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
     background-color: #FED981
     background-image: url("../assets/curso/tema6/img04.svg")

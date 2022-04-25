@@ -53,7 +53,7 @@
 
     .tarjetas1.mb-4(data-aos="fade-left")
       .row.justify-content-center.align-items-center        
-        .col-sm-8.col-xl-4
+        .col-10.col-xl-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img03.png')
             .TFoverlay(style="background-color: #FFDE96")
@@ -61,7 +61,7 @@
                 img.mb-4(style="width:79px" src="@/assets/curso/tema1/img08.svg")
                 h4 Rapidez
                 p.mb-0 Este transporte es adecuado para mercancías urgentes, productos perecederos y aquellos de valor unitario elevado.
-        .col-sm-8.col-xl-4
+        .col-10.col-xl-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img04.png')
             .TFoverlay(style="background-color: #FFDE96")
@@ -69,7 +69,7 @@
                 img.mb-4(style="width:79px" src="@/assets/curso/tema1/img09.svg")
                 h4 Seguridad
                 p.mb-0 El transporte aéreo tiene los índices de seguridad más altos de todos los medios de transporte.
-        .col-sm-8.col-xl-4
+        .col-10.col-xl-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img05.png')
             .TFoverlay(style="background-color: #FFDE96")
@@ -80,7 +80,7 @@
 
     .tarjetas1.mb-4(data-aos="fade-right")
       .row.justify-content-center.align-items-center        
-        .col-sm-8.col-xl-4
+        .col-10.col-xl-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img11.png')
             .TFoverlay(style="background-color: #FFDE96")
@@ -88,7 +88,7 @@
                 img.mb-4(style="width:99px" src="@/assets/curso/tema1/img13.svg")
                 h4 Costos
                 p.mb-0 Su elevado costo limita su uso a mercancías de alto valor unitario o aquellas en que la rapidez de entrega es un valor añadido significativo.
-        .col-sm-8.col-xl-4
+        .col-10.col-xl-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img12.png')
             .TFoverlay(style="background-color: #FFDE96")
@@ -102,7 +102,7 @@
 
     .tarjetas1.mb-4(data-aos="fade-left")
       .row.justify-content-center
-        .col-sm-8.col-xl-4.d-flex
+        .col-10.col-xl-4.d-flex
           .TFcontainer.mb-3.py-5(style="background-color: #FFE29E")
             .row.justify-content-center.mb-2
               .col-md-8.col-xl-4
@@ -116,7 +116,7 @@
                   .col-9 
                     h3.mb-0 Servicios regulares 
                 p.mb-0 Corresponden a los servicios de transporte aéreo de pasajeros y carga, incluidos en el tráfico programado para una compañía aérea, con horarios y tarifas anunciados.
-        .col-sm-8.col-xl-4.d-flex
+        .col-10.col-xl-4.d-flex
           .TFcontainer.mb-3.py-5(style="background-color: #8D9BFF")
             .row.justify-content-center.mb-2
               .col-md-8.col-xl-4
@@ -131,7 +131,7 @@
                   .col-9 
                     h3.mb-0 Servicios chárter 
                 p.mb-0 Servicios de transporte que, por lo general, se realiza mediante el arrendamiento de aeronaves completas para un recorrido determinado, sin que tengan que estar asignadas a una zona geográfica concreta, tarifas y frecuencias fijas.
-        .col-sm-8.col-xl-4.d-flex
+        .col-10.col-xl-4.d-flex
           .TFcontainer.mb-3.py-5(style="background-color: #FFE29E")
             .row.justify-content-center.mb-2
               .col-md-8.col-xl-4
@@ -231,7 +231,7 @@
 
     .tarjetas1.mb-4(data-aos="fade-right")
       .row.justify-content-center
-        .col-6.col-xl-4.d-flex
+        .col-8.col-xl-4.d-flex
           .TFcontainer.mb-3(style="background-color: #FFE29E")
             img.TFimage(src='@/assets/curso/tema1/img29.png')                        
             .TFoverlay3(style="background-color: #A4A3FF")
@@ -242,7 +242,7 @@
                   .col-9
                     h3.mb-0 Internacionalidad
                 p.mb-0 Transporta mercancía entre puntos geográficos distantes al más bajo costo y es el que menos impacto tiene en el medio ambiente. 
-        .col-6.col-xl-4.d-flex
+        .col-8.col-xl-4.d-flex
           .TFcontainer.mb-3(style="background-color: #8D9BFF")                                     
             img.TFimage(src='@/assets/curso/tema1/img30.png')                        
             .TFoverlay3(style="background-color: #A4A3FF")
@@ -253,7 +253,7 @@
                   .col-9 
                     h3.mb-0 Versatilidad
                 p.mb-0 Con el fin de adaptarse a la mercancía a transportar, el diseño de los buques se ha especializado cada vez más.
-        .col-6.col-xl-4.d-flex
+        .col-8.col-xl-4.d-flex
           .TFcontainer.mb-3(style="background-color: #FFE29E")
             img.TFimage(src='@/assets/curso/tema1/img31.png')                        
             .TFoverlay3(style="background-color: #A4A3FF")
@@ -267,7 +267,7 @@
 
     .tarjetas1.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center
-        .col-6.col-xl-4.d-flex
+        .col-8.col-xl-4.d-flex
           .TFcontainer.mb-3(style="background-color: #FFE29E")
             img.TFimage(src='@/assets/curso/tema1/img32.png')                        
             .TFoverlay3(style="background-color: #A4A3FF")
@@ -278,7 +278,7 @@
                   .col-9 
                     h3.mb-0 Infraestructura
                 p.mb-0 Se requiere una infraestructura portuaria en tierra, con instalaciones adecuadas. 
-        .col-6.col-xl-4.d-flex
+        .col-8.col-xl-4.d-flex
           .TFcontainer.mb-3(style="background-color: #8D9BFF")                                     
             img.TFimage(src='@/assets/curso/tema1/img33.png')                        
             .TFoverlay3(style="background-color: #A4A3FF")
@@ -344,7 +344,7 @@
     
     h4.mb-4 Fluvial  
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")      
-      .col-8.col-xl-4
+      .col-10.col-xl-4
         .imagen-adornos-flotantes-tema3.d-flex.justify-content-center.mb-5.mb-xl-0
             img(src='@/assets/curso/tema1/img44.png')
             .imagen-adornos-flotantes-tema3__img1: img(src="@/assets/curso/tema3/bolita1.png" style="left:25%; right:  ; top: -10%; bottom:  ; width: 47px")

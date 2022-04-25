@@ -15,7 +15,7 @@
             .imagen-adornos-flotantes-tema3__img1: img(src="@/assets/curso/tema3/bolita1.png" style="left: 20%; right:  ; top: -10%; bottom:  ; width: 47px")
             .imagen-adornos-flotantes-tema3__img2: img(src="@/assets/curso/tema3/bolita2.png" style="left: ; right:-5% ; top:-8% ; bottom: ; width: 73px ")
             .imagen-adornos-flotantes-tema3__img3: img(src="@/assets/curso/tema3/bolita3.png" style="left: 8% ; right: ; top: ; bottom: -10% ; width: 47px ")
-            .imagen-adornos-flotantes-tema3__img4: img(src="@/assets/curso/tema3/cajita1.png" style="left: -10% ; right: ; top: ; bottom: -10% ; width: 103px ")
+            .imagen-adornos-flotantes-tema3__img4: img(src="@/assets/curso/tema3/cajita1.png" style="left: -10% ; right: ; top: ; bottom: -10% ; width: 80px ")
       .col-lg-7
         p.mb-4 Una estructura de la mercancía que proporcione cohesión permite que no exista dislocaciones de esta durante su manipulación y transporte y, por ende, disminuir el riesgo de hundimiento y rotura.
         p.mb-0 La ventaja principal de la cohesión de mercancía es el aumento en la estabilidad de la carga, ya que una correcta estructura permite una ocupación óptima en los vehículos de transporte. Por ejemplo, si la carga no está correctamente estructurada sobre un pallet, al momento de realizar su traslado al vehículo es susceptible de formar abanicos que provocan roturas.
@@ -24,13 +24,13 @@
 
     .tema5.tarjetas1.mb-5(data-aos="fade-left")
       .row.justify-content-center.align-items-center        
-            .col-8.col-xl-6
+            .col-10.col-xl-6
               .TFcontainer.mb-3
                 img.TFimage(src='@/assets/curso/tema5/img02.png')
                 .TFoverlay.p-4.pt-5
                   h4 Cohesión natural
                   p.mb-0 Consiste en la disposición de paquetes en pila mejorando la resistencia, la colocación de caja sobre caja garantiza una mejor resistencia a la compresión, se puede decir, entonces, que esta cohesión hace referencia a la sobre posición de paquetes.
-            .col-8.col-xl-6
+            .col-10.col-xl-6
               .TFcontainer.mb-3
                 img.TFimage(src='@/assets/curso/tema5/img03.png')
                 .TFoverlay.p-4.pt-5
@@ -109,11 +109,12 @@ export default {
     background-color: rgba(255, 247, 230, 0.85)
 
   .TFcontainer:hover .TFoverlay
+    height: 50%
+
+  @media screen and (max-width: 991px)
+   .TFcontainer:hover .TFoverlay
     height: 100%
 
-  // @media screen and (max-width: 991px)
-  //   .TFimage
-  //     height: 200px
 
 .tabla-a.tabla2
   table

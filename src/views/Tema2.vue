@@ -8,14 +8,16 @@
       h1 Embalajes para el transporte
 
     br
+    br
+    br
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-10.px-5
+      .p-12.col-xxl-10
         .bloque-texto-g.color-primario.position-relative(style="padding: 2.5rem !important")
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/tema2/img01.png')})`}"
           )
             .imagen-superior.position-absolute(style='bottom:0 ; left: -0%;'): img(src='@/assets/curso/tema2/img02.png')
-          .bloque-texto-g__texto.px-5.py-4
+          .bloque-texto-g__texto.p-3.px-xxl-5.py-xxl-4
             p.mb-0 El embalaje sirve para proteger la mercancía ante posibles daños que se ocasionan durante la manipulación, el almacenamiento o el transporte. La función principal del embalaje es otorgar a la mercancía o a la unidad de carga una cobertura que permita su protección y, así mismo, poder identificarla y manejarla fácilmente. Un embalaje adecuado influye sobre la calidad y el precio del transporte. Por ejemplo, no debe ser muy voluminoso o pesado, porque tendrá efecto directo sobre los costos del transporte.
     
     p.mb-5 La naturaleza de la mercancía, así como el proceso de transporte determina la elección del tipo de embalaje. Por ejemplo, a través del embalaje se pueden obtener pallets, sacos, cajas, etc. En todos los casos el embalaje cumple las siguientes funciones.

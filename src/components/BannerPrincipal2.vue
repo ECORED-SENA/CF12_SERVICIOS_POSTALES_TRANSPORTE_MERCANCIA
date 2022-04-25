@@ -6,13 +6,13 @@
     .row.banner-principal__row.position-relative.justify-content-center.align-items-center.g-0
       .col-lg-6.banner-principal__info.ps-2.py-4.py-sm-5.ps-5
         .banner-principal__componente
-          h1.mb-0(style="font-size: 42px" v-html="globalData.componenteFormativo")
+          h1.mb-0( v-html="globalData.componenteFormativo")
         .col-lg-11
           .banner-principal__descripcion
             p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
           router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
-            span.me-1 Iniciar
+            span.me-1 Ver más
             i.fas.fa-angle-right
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img.d-flex.justify-content-center
@@ -40,6 +40,10 @@ export default {
 </script>
 
 <style lang="sass">
+.banner-principal,  header
+  .fa-angle-right:before
+    color: white !important
+
 .fondo-contenido
   position: absolute
   padding: 0px

@@ -89,6 +89,8 @@ export default {
 </script>
 
 <style lang="sass">
+.fa-times:before
+  color: white
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
     background-color: #FED981

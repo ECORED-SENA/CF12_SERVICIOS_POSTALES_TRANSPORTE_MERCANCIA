@@ -17,7 +17,7 @@
     .cajon.color-primario.py-5.mb-5.position-relative(data-aos="fade-left" style="background-color: #FEECC0")
       .row.justify-content-center.align-items-center
         .col-1.d-none.d-lg-block
-        .col-10.col-xl-7.p-0
+        .col-10.col-xl-7.p-0.px-3
           p.mb-0 Apreciado participante, le damos la bienvenida a este momento de aprendizaje orientado a las herramientas para operar el proceso de cargue y descargue de mercancías según la normativa de higiene y seguridad. Antes de empezar le sugerimos revisar la siguiente infografía para identificar el contexto de aprendizaje.
         .col-1.col-xl-4
           .imagen-adornos-flotantes.imagen-superior.position-absolute.d-none.d-xl-block(style='bottom:0% ; right: -0%;')

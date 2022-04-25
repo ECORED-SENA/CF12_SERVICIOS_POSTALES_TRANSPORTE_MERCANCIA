@@ -15,7 +15,7 @@
         div.p-0.position-relative.mb-4.mb-lg-0(data-aos="fade-left")          
           figure            
             img(src="@/assets/curso/tema9/img01.png")
-          div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
+          div.py-4.px-3.px-lg-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-1.p-0.d-flex.justify-content-center(style="background-color: #FF8578")
                 h4.mb-0 01
@@ -25,7 +25,7 @@
         div.p-0.position-relative.mb-4.mb-lg-0(data-aos="fade-right")
           figure
             img(src="@/assets/curso/tema9/img02.png")
-          div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
+          div.py-4.px-3.px-lg-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-1.p-0.d-flex.justify-content-center(style="background-color: #FF8578")
                 h4.mb-0 02
@@ -35,7 +35,7 @@
         div.p-0.position-relative.mb-4.mb-lg-0(data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema9/img03.png")
-          div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
+          div.py-4.px-3.px-lg-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-1.p-0.d-flex.justify-content-center(style="background-color: #FF8578")
                 h4.mb-0 03
@@ -47,7 +47,7 @@
         div.p-0.position-relative.mb-4.mb-lg-0(data-aos="fade-right")
           figure
             img(src="@/assets/curso/tema9/img04.png")
-          div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
+          div.py-4.px-3.px-lg-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-1.p-0.d-flex.justify-content-center(style="background-color: #FF8578")
                 h4.mb-0 04
@@ -57,7 +57,7 @@
         div.p-0.position-relative.mb-4.mb-lg-0(data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema9/img05.png")
-          div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
+          div.py-4.px-3.px-lg-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-1.p-0.d-flex.justify-content-center(style="background-color: #FF8578")
                 h4.mb-0 05
@@ -67,7 +67,7 @@
         div.p-0.position-relative.mb-4.mb-lg-0(data-aos="fade-right")
           figure
             img(src="@/assets/curso/tema9/img06.png")
-          div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
+          div.py-4.px-3.px-lg-5.w-100.position-absolute(style="bottom: 0%; height:75px;  background-color: rgba(255, 247, 230, 0.85)")
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-1.p-0.d-flex.justify-content-center(style="background-color: #FF8578")
                 h4.mb-0 06

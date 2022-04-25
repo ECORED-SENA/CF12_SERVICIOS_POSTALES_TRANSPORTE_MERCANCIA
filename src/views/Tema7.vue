@@ -17,7 +17,8 @@
             .imagen-adornos-flotantes-tema3__img1: img(src="@/assets/curso/tema3/bolita1.png" style="left: 5%; right:  ; top: -0%; bottom:  ; width: 47px")
             .imagen-adornos-flotantes-tema3__img2: img(src="@/assets/curso/tema3/bolita2.png" style="left: ; right: -3% ; top:0% ; bottom: ; width: 73px ")
             .imagen-adornos-flotantes-tema3__img3: img(src="@/assets/curso/tema3/bolita3.png" style="left: 25% ; right: ; top: ; bottom: -3% ; width: 47px ")
-            .imagen-adornos-flotantes-tema3__img4: img(src="@/assets/curso/tema3/cajita1.png" style="left:  ; right: 10% ; top: ; bottom: -10% ; width: 142px ")
+            .imagen-adornos-flotantes-tema3__img4: img(src="@/assets/curso/tema3/cajita1.png" style="left:  ; right: 0% ; top: ; bottom: -10% ; width: 80px ")
+            
       .col-lg-7
         p.mb-0 En el momento que la mercancía es solicitada por los clientes o distribuidores, empieza la actividad de alistamiento de la mercancía, la cual consiste en las operaciones para extraer los productos que han sido demandados y acondicionarlos para su envío. El alistamiento de la mercancía se da en gran parte a la necesidad de los clientes, debido a que esta actividad depende del cumplimiento de las órdenes de pedido.
 
