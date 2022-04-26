@@ -53,7 +53,7 @@
 
     .tarjetas1.mb-4(data-aos="fade-left")
       .row.justify-content-center.align-items-center        
-        .col-10.col-xl-4
+        .col-12.col-xl-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img03.png')
             .TFoverlay(style="background-color: #FFDE96")
@@ -61,7 +61,7 @@
                 img.mb-4(style="width:79px" src="@/assets/curso/tema1/img08.svg")
                 h4 Rapidez
                 p.mb-0 Este transporte es adecuado para mercancías urgentes, productos perecederos y aquellos de valor unitario elevado.
-        .col-10.col-xl-4
+        .col-12.col-xl-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img04.png')
             .TFoverlay(style="background-color: #FFDE96")
@@ -69,7 +69,7 @@
                 img.mb-4(style="width:79px" src="@/assets/curso/tema1/img09.svg")
                 h4 Seguridad
                 p.mb-0 El transporte aéreo tiene los índices de seguridad más altos de todos los medios de transporte.
-        .col-10.col-xl-4
+        .col-12.col-xl-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img05.png')
             .TFoverlay(style="background-color: #FFDE96")
@@ -80,7 +80,7 @@
 
     .tarjetas1.mb-4(data-aos="fade-right")
       .row.justify-content-center.align-items-center        
-        .col-10.col-xl-4
+        .col-12.col-xl-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img11.png')
             .TFoverlay(style="background-color: #FFDE96")
@@ -88,7 +88,7 @@
                 img.mb-4(style="width:99px" src="@/assets/curso/tema1/img13.svg")
                 h4 Costos
                 p.mb-0 Su elevado costo limita su uso a mercancías de alto valor unitario o aquellas en que la rapidez de entrega es un valor añadido significativo.
-        .col-10.col-xl-4
+        .col-12.col-xl-4
           .TFcontainer.mb-3
             img.TFimage(src='@/assets/curso/tema1/img12.png')
             .TFoverlay(style="background-color: #FFDE96")
@@ -161,29 +161,29 @@
     p.mb-4 Las principales características son las siguientes:
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-6.col-xl-3.tarjeta1-tema1         
+      .col-12.col-xl-3.tarjeta1-tema1         
         img(src="@/assets/curso/tema1/img19.png")
         div.p-3.mb-3.mb-xl-0(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
           h4 Capacidad
           p.mb-4 Realiza movimientos de grandes cargas. 
-      .col-6.col-xl-3.tarjeta1-tema1
+      .col-12.col-xl-3.tarjeta1-tema1
         img(src="@/assets/curso/tema1/img20.png")
         div.p-3.mb-3.mb-xl-0(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
           h4 Seguridad
           p.mb-4 Presenta uno de los índices de siniestralidad más bajos.
-      .col-6.col-xl-3.tarjeta1-tema1
+      .col-12.col-xl-3.tarjeta1-tema1
         img(src="@/assets/curso/tema1/img21.png")
         div.p-3.mb-3.mb-xl-0(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
           h4 Intermodalidad
           p.mb-4 Es el modo menos contaminante para el medio ambiente.
 
     .row.justify-content-center.align-items-center.mb-5      
-      .col-6.col-xl-3.tarjeta1-tema1
+      .col-12.col-xl-3.tarjeta1-tema1
         img(src="@/assets/curso/tema1/img22.png")
         div.p-3.mb-3.mb-xl-0(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
           h4 Seguridad
           p.mb-4 Es posible interactuar con otros modos de transporte (marítimo y carretera).
-      .col-6.col-xl-3.tarjeta1-tema1
+      .col-12.col-xl-3.tarjeta1-tema1
         img(src="@/assets/curso/tema1/img23.png")
         div.p-3.mb-3.mb-xl-0(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
           h4 Regularidad
@@ -231,7 +231,7 @@
 
     .tarjetas1.mb-4(data-aos="fade-right")
       .row.justify-content-center
-        .col-8.col-xl-4.d-flex
+        .col-12.col-xl-4.d-flex
           .TFcontainer.mb-3(style="background-color: #FFE29E")
             img.TFimage(src='@/assets/curso/tema1/img29.png')                        
             .TFoverlay3(style="background-color: #A4A3FF")
@@ -242,7 +242,7 @@
                   .col-9
                     h3.mb-0 Internacionalidad
                 p.mb-0 Transporta mercancía entre puntos geográficos distantes al más bajo costo y es el que menos impacto tiene en el medio ambiente. 
-        .col-8.col-xl-4.d-flex
+        .col-12.col-xl-4.d-flex
           .TFcontainer.mb-3(style="background-color: #8D9BFF")                                     
             img.TFimage(src='@/assets/curso/tema1/img30.png')                        
             .TFoverlay3(style="background-color: #A4A3FF")
@@ -253,7 +253,7 @@
                   .col-9 
                     h3.mb-0 Versatilidad
                 p.mb-0 Con el fin de adaptarse a la mercancía a transportar, el diseño de los buques se ha especializado cada vez más.
-        .col-8.col-xl-4.d-flex
+        .col-12.col-xl-4.d-flex
           .TFcontainer.mb-3(style="background-color: #FFE29E")
             img.TFimage(src='@/assets/curso/tema1/img31.png')                        
             .TFoverlay3(style="background-color: #A4A3FF")
@@ -267,7 +267,7 @@
 
     .tarjetas1.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center
-        .col-8.col-xl-4.d-flex
+        .col-12.col-xl-4.d-flex
           .TFcontainer.mb-3(style="background-color: #FFE29E")
             img.TFimage(src='@/assets/curso/tema1/img32.png')                        
             .TFoverlay3(style="background-color: #A4A3FF")
@@ -278,7 +278,7 @@
                   .col-9 
                     h3.mb-0 Infraestructura
                 p.mb-0 Se requiere una infraestructura portuaria en tierra, con instalaciones adecuadas. 
-        .col-8.col-xl-4.d-flex
+        .col-12.col-xl-4.d-flex
           .TFcontainer.mb-3(style="background-color: #8D9BFF")                                     
             img.TFimage(src='@/assets/curso/tema1/img33.png')                        
             .TFoverlay3(style="background-color: #A4A3FF")

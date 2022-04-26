@@ -1,20 +1,5 @@
-H1	Ajustado
-H2	Ajustado
-H11	Ajustado
-H14	Ajustado
-H18	Se elimina el pdf de la sintesis
-H20	Ajustado
-H23	Ajustado a ancho minimo de 576px
-H25	Ajustado a ancho minimo de 576px
-H27	Ajustado a ancho minimo de 576px
-H29	Ajustado a ancho minimo de 576px
-H30	Ajustado a ancho minimo de 576px
-H31	Ajustado a ancho minimo de 576px
-H32	Ajustado a ancho minimo de 576px
-H35	Ajustado a ancho minimo de 576px
-H36	Ajustado a ancho minimo de 576px
-H37	Ajustado a ancho minimo de 576px
-H38	Ajustado a ancho minimo de 576px
-H41	Ajustado a ancho minimo de 576px
-H45	Ajustado
-H46.	Ajustado
+H18	Por favor indicar donde encuentro el documento al que hace referencia (en el drivem, no lo encuentro)
+H23	Ajustado segun sugerencia
+H25 	Ajustado segun sugerencia
+H27	Ajustado segun sugerencia
+H38	Ajustado segun sugerencia
