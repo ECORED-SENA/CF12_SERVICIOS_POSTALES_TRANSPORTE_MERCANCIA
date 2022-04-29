@@ -32,7 +32,7 @@
             .row.justify-content-center.align-items-center.mb-3
               .col-4
                 img(src='@/assets/curso/tema7/img10.svg')
-            p.mx-4.text-center.mb-4 <b>Captura de datos  y lanzamiento de órdenes de picking.</b>
+            p.mx-4.text-center.mb-4 <b>Captura de datos  y lanzamiento de órdenes de <i>picking</i></b>
 
       .col-lg-3.col-md-6.col-sm-7
         .tarjeta-avatar.w-100(style="height:100%")
@@ -41,7 +41,7 @@
             .row.justify-content-center.align-items-center.mb-3
               .col-4
                 img(src='@/assets/curso/tema7/img11.svg')
-            p.mx-4.text-center.mb-4 <b>Picking.</b>
+            p.mx-4.text-center.mb-4 <b><i>Picking</i></b>
             <br>
       .col-lg-3.col-md-6.col-sm-7
         .tarjeta-avatar
@@ -50,7 +50,7 @@
             .row.justify-content-center.align-items-center.mb-3
               .col-4
                 img(src='@/assets/curso/tema7/img12.svg')
-            p.mx-4.text-center.mb-4 <b>Embalaje.</b>
+            p.mx-4.text-center.mb-4 <b>Embalaje</b>
             <br>
       .col-lg-3.col-md-6.col-sm-7
         .tarjeta-avatar
@@ -59,7 +59,7 @@
             .row.justify-content-center.align-items-center.mb-3
               .col-4
                 img(src='@/assets/curso/tema7/img13.svg')
-            p.mx-4.text-center.mb-4 <b>Acondicionamiento de  unidades de manipulación.</b>
+            p.mx-4.text-center.mb-4 <b>Acondicionamiento de  unidades de manipulación</b>
 
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-3.col-md-6.col-sm-7
@@ -69,7 +69,7 @@
             .row.justify-content-center.align-items-center.mb-3
               .col-4
                 img(src='@/assets/curso/tema7/img14.svg')
-            p.mx-4.text-center.mb-4 <b>Pesaje.</b>
+            p.mx-4.text-center.mb-4 <b>Pesaje</b>
             <br>
       .col-lg-3.col-md-6.col-sm-7
         .tarjeta-avatar
@@ -78,7 +78,7 @@
             .row.justify-content-center.align-items-center.mb-3
               .col-4
                 img(src='@/assets/curso/tema7/img15.svg')
-            p.mx-4.text-center.mb-4 <b>Precintado.</b>
+            p.mx-4.text-center.mb-4 <b>Precintado</b>
             <br>
       .col-lg-3.col-md-6.col-sm-7
         .tarjeta-avatar
@@ -87,7 +87,7 @@
             .row.justify-content-center.align-items-center.mb-3
               .col-4
                 img(src='@/assets/curso/tema7/img16.svg')
-            p.mx-4.text-center.mb-4 <b>Etiquetado.</b>
+            p.mx-4.text-center.mb-4 <b>Etiquetado</b>
             <br>
       .col-lg-3.col-md-6.col-sm-7
         .tarjeta-avatar
@@ -96,13 +96,13 @@
             .row.justify-content-center.align-items-center.mb-3
               .col-4
                 img(src='@/assets/curso/tema7/img17.svg')
-            p.mx-4.text-center.mb-4 <b>Preparación de documentos para el transporte.</b>
+            p.mx-4.text-center.mb-4 <b>Preparación de documentos para el transporte</b>
     
 
     Separador
 
     #t_7_1.titulo-segundo.color-primario
-      h2 7.1. Picking (recogida)
+      h2 7.1. <i>Picking</i> (recogida)
               
     .row.justify-content-center.align-items-center.mb-5.pt-0.pt-xxl-5
       .col-lg-10.px-5
@@ -113,7 +113,7 @@
             .imagen-superior.position-absolute.d-none.d-lg-block(style='bottom:0 ; left: -0%;'): img(src='@/assets/curso/tema7/img30.png')
           .bloque-texto-g__texto.p-5
             div.p-4
-              p.d-block.mb-0 En este punto se va a enfocar la atención en la actividad de picking debido a que es la actividad con mayor relevancia para la preparación de los pedidos, y consiste en seleccionar y extraer de los lugares de almacenamiento las referencias solicitadas.              
+              p.d-block.mb-0 En este punto se va a enfocar la atención en la actividad de <i>picking</i> debido a que es la actividad con mayor relevancia para la preparación de los pedidos, y consiste en seleccionar y extraer de los lugares de almacenamiento las referencias solicitadas.              
 
     //- .row.justify-content-center.align-items-center.mb-5(data-aos="fade-up")
     //-   .col-10(style="position:relative")
@@ -125,20 +125,20 @@
     //-         )
     //-         .bloque-texto-g__texto.p-5
     //-           div.p-0.d-block.p-2
-    //-             p.mb-0 En este punto se va a enfocar la atención en la actividad de picking debido a que es la actividad con mayor relevancia para la preparación de los pedidos, y consiste en seleccionar y extraer de los lugares de almacenamiento las referencias solicitadas.              
+    //-             p.mb-0 En este punto se va a enfocar la atención en la actividad de <i>picking</i> debido a que es la actividad con mayor relevancia para la preparación de los pedidos, y consiste en seleccionar y extraer de los lugares de almacenamiento las referencias solicitadas.              
 
 
 
 
     p.mb-4 Teniendo en cuenta que esta es una de las actividades más costosas en el almacén, se deben realizar procesos operativos eficientes. Por ejemplo, reducir al mínimo las distancias recorridas por los operarios o por los equipos, sin descuidar la calidad del servicio en el almacén.
-    p.mb-4 A continuación, se especifican los tipos de picking, de acuerdo con diferentes criterios:
+    p.mb-4 A continuación, se especifican los tipos de <i>picking</i>, de acuerdo con diferentes criterios:
 
     .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-right")          
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-top                      
           .col-lg-6                
             p.mb-4 <b>Según la separación de los productos</b>
-            p.mb-4 <b>Batch Picking</b>
+            p.mb-4 <b><i>Batch</i> <i>Picking</i></b>
             p.mb-0 Se trata de extraer en conjunto las referencias de todos los pedidos agrupados y posteriormente separar las cantidades de las referencias que corresponden a cada pedido.
           .col-lg-6
             figure
@@ -147,7 +147,7 @@
         .row.justify-content-center.align-items-top                      
           .col-lg-6                
             p.mb-4 <b>Según la separación de los productos</b>
-            p.mb-4 <b>Pick to box</b>
+            p.mb-4 <b><i>Pick to box</i></b>
             p.mb-0 Se basa en extraer las referencias de forma agrupada, las cuales son introducidas directamente en las cajas de cada envío en el mismo punto de extracción del material, eliminando el proceso de separación posterior. 
           .col-lg-6
             figure              
@@ -156,8 +156,8 @@
         .row.justify-content-center.align-items-top                      
           .col-lg-6                
             p.mb-4 <b>Según la realización</b>
-            p.mb-4 <b>Picking in situ o de hombre a producto</b>
-            p.mb-0 A partir de una lista de picking que recibe el preparador de pedidos, en la que se encuentran las cantidades y artículos que componen el pedido, se definen rutas óptimas para la recogida del producto. 
+            p.mb-4 <b><i>Picking</i> <i>in situ</i> o de hombre a producto</b>
+            p.mb-0 A partir de una lista de <i>picking</i> que recibe el preparador de pedidos, en la que se encuentran las cantidades y artículos que componen el pedido, se definen rutas óptimas para la recogida del producto. 
           .col-lg-6
             figure
               img(src='@/assets/curso/tema7/img22.png') 
@@ -165,7 +165,7 @@
         .row.justify-content-center.align-items-top                      
           .col-lg-6                
             p.mb-4 <b>Según la realización</b>
-            p.mb-4 <b>Estaciones de picking</b>
+            p.mb-4 <b>Estaciones de <i>picking</i></b>
             p.mb-0 Se usan medios automatizados que llevan la mercancía hasta los operarios y la zona de preparación de pedidos, generando mayor rapidez y productividad en los procesos, evitando así los múltiples desplazamientos dentro del almacén.
           .col-lg-6
             figure
@@ -173,8 +173,8 @@
 
         .row.justify-content-center.align-items-top                      
           .col-lg-6                
-            p.mb-4 <b>Picking in situ</b>
-            p.mb-4 <b>Picking a nivel del suelo</b>
+            p.mb-4 <b><i>Picking</i> <i>in situ</i></b>
+            p.mb-4 <b><i>Picking</i> a nivel del suelo</b>
             p.mb-0 Se realiza en una zona habilitada para la preparación de pedidos, la cual es abastecida por unidades de carga extraídas de la zona de almacenaje.
           .col-lg-6
             figure
@@ -182,9 +182,9 @@
 
         .row.justify-content-center.align-items-top                      
           .col-lg-6                
-            p.mb-4 <b>Picking in situ</b>
-            p.mb-4 <b>Picking sobre estanterías de pallets</b>
-            p.mb-0 Se realiza sobre los distintos niveles de la estantería utilizando equipos para recoger la mercancía en los niveles superior de la estantería y para el nivel bajo, picking manual.
+            p.mb-4 <b><i>Picking</i> <i>in situ</i></b>
+            p.mb-4 <b><i>Picking</i> sobre estanterías de <i>pallets</i></b>
+            p.mb-0 Se realiza sobre los distintos niveles de la estantería utilizando equipos para recoger la mercancía en los niveles superior de la estantería y para el nivel bajo, <i>picking</i> manual.
           .col-lg-6
             figure
               img(src='@/assets/curso/tema7/img25.png') 
@@ -193,7 +193,7 @@
     .row.justify-content-center.align-items-top.mb-0(data-aos="fade-left")    
       .col-lg-7.py-5        
         p.mb-4 Si el almacén cuenta con mercancía de todo tipo, gran gama de productos y con características diferentes, al momento del alistamiento de la mercancía la preparación de pedidos se puede hacer lenta y complicada, por ello es importante que el control en las zonas del almacén esté determinado por las características de los artículos, tamaño y salida comercial. Adicionalmente, para optimizar la velocidad y calidad de los pedidos es importante tener claras u ordenadas las zonas donde se encuentra la mercancía en el almacén.
-        p.mb-0 Con el fin de tener control sobre el proceso de picking, existen varios sistemas de seguimiento y control de pedidos que permiten acelerar el proceso y evitar la pérdida de información, los cuales son conocidos como SGA (Sistema de Gestión de Almacén) en estos se pueden ir introduciendo pedidos de mayor urgencia en ordenadores personales de almacén conforme cambia su prioridad. Uno de los sistemas más conocidos es el ERP, estos sistemas se caracterizan principalmente por controlar y cambiar la información relevante en tiempo real, lo cual supone un aumento en la productividad y mejor aprovechamiento del tiempo.
+        p.mb-0 Con el fin de tener control sobre el proceso de <i>picking</i>, existen varios sistemas de seguimiento y control de pedidos que permiten acelerar el proceso y evitar la pérdida de información, los cuales son conocidos como SGA (Sistema de Gestión de Almacén) en estos se pueden ir introduciendo pedidos de mayor urgencia en ordenadores personales de almacén conforme cambia su prioridad. Uno de los sistemas más conocidos es el ERP, estos sistemas se caracterizan principalmente por controlar y cambiar la información relevante en tiempo real, lo cual supone un aumento en la productividad y mejor aprovechamiento del tiempo.
       .col-8.col-lg-4.pt-4        
         .imagen-adornos-flotantes-tema3.d-flex.justify-content-center.mb-3.mb-lg-0
             img(src='@/assets/curso/tema7/img26.png')

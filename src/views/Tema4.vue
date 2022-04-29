@@ -40,7 +40,7 @@
         .py-3.py-md-4.px-3(titulo="Grapas")
           .row.justify-content-center
             .col-lg-6.pt-4
-              p.mb-0 Son fabricadas en nylon de alta resistencia permitiendo el amarre manual, ideales para asegurar el cierre. Se puede realizar de manera manual; si es necesaria mayor tensión se puede hacer uso de una máquina zunchadora automática.
+              p.mb-0 Son fabricadas en <i>nylon</i> de alta resistencia permitiendo el amarre manual, ideales para asegurar el cierre. Se puede realizar de manera manual; si es necesaria mayor tensión se puede hacer uso de una máquina zunchadora automática.
             .col-lg-1
             .col-md-5
               figure

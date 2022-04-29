@@ -131,7 +131,7 @@
                   td Límites de temperatura.
                   td Límites de temperatura entre los que se debe conservar y manipular la carga.
                 
-    p.mb-4 Para el caso de la carga peligrosa se deben tener en cuenta los siguientes aspectos:
+    p.mb-4 Para el caso de la <b>carga peligrosa</b> se deben tener en cuenta los siguientes aspectos:
     p.mb-5 Está constituida por mercancía nociva o perjudicial, embalada o a granel, la cual durante su transporte puede desprender residuos, humos, gases, vapores de naturaleza inflamable, tóxica, infecciosa, etc. es decir que constituyen un riesgo para la salud humana, los bienes y el medio ambiente.
 
     .titulo-sexto.color-acento-contenido

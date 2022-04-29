@@ -15,7 +15,7 @@
             .imagen-adornos-flotantes-tema4__img2: img(src="@/assets/curso/tema4/bolita2.png" style="left: ; right:-10% ; top:30% ; bottom: ; width: 73px ")
             .imagen-adornos-flotantes-tema4__img3: img(src="@/assets/curso/tema4/bolita3.png" style="left: -5% ; right: ; top: ; bottom: -10% ; width: 47px ")
       .col-lg-10
-        p.mb-4Para el transporte y la manipulación de mercancía, el peso es un dato esencial para la determinación de costos, antes y después del embalaje de los mismos. Por lo tanto, es necesario disponer de equipos de pesaje que garanticen la gestión y el control de todo el tránsito de productos a través de la cadena logística.
+        p.mb-4 Para el transporte y la manipulación de mercancía, el peso es un dato esencial para la determinación de costos, antes y después del embalaje de los mismos. Por lo tanto, es necesario disponer de equipos de pesaje que garanticen la gestión y el control de todo el tránsito de productos a través de la cadena logística.
         p.mb-0 Dependiendo de los artículos que se tiene en el almacén, existen varios equipos de pesaje, a saber:
  
 
@@ -29,7 +29,7 @@
           p.mb-1 <b>Báscula compacta</b>
           p.mb-0 Corresponde al equipo que se usa normalmente y que se conoce también como báscula o balanza de sobremesa. Se compone de una plataforma de pesaje donde se pone el artículo y un indicador de peso que puede ser una aguja que indica las cantidades o un sistema LCD que corresponde a un modelo más moderno.
         .tarjeta.color-primario.p-3.position-relative(style="font-size: 15px; right:0%" x="19%" y="71%" numero=" ")
-          p.mb-1 <b>Básculas especial </b>
+          p.mb-1 <b>Báscula especial </b>
           p.mb-0 Pueden ser de diferentes características, por ejemplo, las básculas cuentapiezas que son de sobremesa y con mucha precisión o las grandes e industriales que se encuentran empotradas al suelo para mercancía transportada por carretillas, elevadoras o transpaletas.
         
 
@@ -62,7 +62,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")         
       .col-lg-7
         p.mb-3 <b><i>- Receptores de cargas especiales</i></b>
-        p.mb-3.mb-lg-0 Corresponden a plataformas generalmente metálicas empotradas en el suelo para recibir la carga de pesadas mercancías. Son de tipos y tamaños diferentes dependiendo de la carga máxima que puedan cifrar. Las más pequeñas son conocidas como básculas de piso.
+        p.mb-3.mb-lg-0 Este sistema está preparado para las características de productos especiales como los líquidos inflamables o tóxicos, animales vivos o productos ultracongelados. Un ejemplo claro de receptor de carga especial es la báscula que calcula el peso del ganado vivo, en la cual se eleva a cada res con poleas en su vientre y pecho para cifrar su peso sin causarle daños al animal.
       .col-8.col-lg-4
         .imagen-adornos-flotantes-tema4.d-flex.justify-content-center          
             img(src='@/assets/curso/tema10/img05.png')

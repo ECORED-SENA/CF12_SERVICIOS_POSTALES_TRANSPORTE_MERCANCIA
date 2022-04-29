@@ -117,7 +117,7 @@
           .row.justify-content-start.align-items-center
             .col-lg-10
               h4 Operaciones de transporte
-              p.mb-0 (componente vertebral de la distribución de la cadena logística) 
+              p.mb-0 (Componente vertebral de la distribución de la cadena logística) 
               p.mb-0 Vehículos utilizados para el transporte son cargados con mercancía y parten desde un origen para alcanzar un destino, en el cual la mercancía puede ser descargada o trasbordada.
         
 

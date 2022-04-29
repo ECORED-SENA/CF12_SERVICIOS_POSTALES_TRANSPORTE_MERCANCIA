@@ -181,7 +181,7 @@
       .col-12.col-xl-3.tarjeta1-tema1
         img(src="@/assets/curso/tema1/img22.png")
         div.p-3.mb-3.mb-xl-0(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
-          h4 Seguridad
+          h4 Intermodalidad
           p.mb-4 Es posible interactuar con otros modos de transporte (marítimo y carretera).
       .col-12.col-xl-3.tarjeta1-tema1
         img(src="@/assets/curso/tema1/img23.png")
@@ -202,14 +202,14 @@
 
         .row.justify-content-center.align-items-top(titulo="Cargas completas")
           .col-md-7.pt-5
-            p.mb-0 Se Transporte de mercancía en vagones completos, es adecuado para el acarreo de mercancías de gran volumen o peso a largas distancias, por ejemplo, productos de hierro o acero.
+            p.mb-0 Transporte de mercancía en vagones completos, es adecuado para el acarreo de mercancías de gran volumen o peso a largas distancias, por ejemplo, productos de hierro o acero.
           .col-md-5
             figure
               img(src="@/assets/curso/tema1/img25.png") 
 
         .row.justify-content-center.align-items-top(titulo="Cargas fraccionadas")
           .col-md-7.pt-5
-            p.mb-0 Se Corresponde a la carga que no alcanza a llenar un vagón o un contenedor. 
+            p.mb-0 Corresponde a la carga que no alcanza a llenar un vagón o un contenedor. 
           .col-md-5
             figure
               img(src="@/assets/curso/tema1/img26.png") 
@@ -263,7 +263,7 @@
                     img.TFimage(src='@/assets/curso/tema1/img28.svg')      
                   .col-9 
                     h3.mb-0 Gran capacidad
-                p.mb-0 Existen buques de amplia gama de tamaños, desde 100 TPM (toneladas de peso muerto) hasta mayores de 300.000 TMP
+                p.mb-0 Existen buques de amplia gama de tamaños, desde 100 TPM (toneladas de peso muerto) hasta mayores de 300.000 TMP.
 
     .tarjetas1.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center
@@ -290,6 +290,8 @@
                     h3.mb-0 Escasa penetrabilidad
                 p.mb-0 Debido a que tiene gran dependencia de la carretera o el ferrocarril para alcanzar el destino de la mercancía.
 
+    p.mb-4 Hay dos mercados principales de prestación de servicios en el transporte marítimo de mercancías, a saber: 
+    
     .tema4.mb-5(data-aos="fade-right")
       TabsC.color-acento-contenido
         .py-3.py-md-4.px-3(titulo="Mercado de tráficos de línea regular")
@@ -299,10 +301,10 @@
             .col-md-4
               figure
                 img(src='@/assets/curso/tema1/img34.png')    
-        .py-3.py-md-4.px-3(titulo="Mercado de tráficos tramp")
+        .py-3.py-md-4.px-3(titulo="Mercado de tráficos <i>tramp</i>")
           .row.justify-content-center
             .col-lg-6.pt-8
-              p.mb-0 Este servicio se lleva a cabo por buques volanderos o tramp, no tiene ruta fija ni fletes uniformes, una vez se finaliza el servicio el armador queda libre de compromiso para contratar otro servicio. 
+              p.mb-0 Este servicio se lleva a cabo por buques volanderos o <i>tramp</i>, no tiene ruta fija ni fletes uniformes, una vez se finaliza el servicio el armador queda libre de compromiso para contratar otro servicio. 
             .col-md-4
               figure
                 img(src='@/assets/curso/tema1/img35.png')    
@@ -324,6 +326,8 @@
 
     SlyderB.mb-5(:datos="datosSlyder")
 
+    p.mb-4 Una de las mayores ventajas del transporte de carretera consiste en su versatilidad, que se puede apreciar conociendo los servicios del transporte por corretera
+
     TabsA.color-secundario.mb-5      
       .tarjeta.tarjeta--gris.p-5(titulo="Carga completa")        
         .row.justify-content-center.align-items-center
@@ -333,7 +337,7 @@
           .col-lg-4.px-5
             img(src="@/assets/curso/tema1/img42.svg")
 
-      .tarjeta.tarjeta--gris.p-5(titulo="Carga completa")        
+      .tarjeta.tarjeta--gris.p-5(titulo="Cargas fraccionadas o grupaje")        
         .row.justify-content-center.align-items-center
           .col-lg-8
             h4 Cargas fraccionadas o grupaje
@@ -388,31 +392,31 @@ export default {
   data: () => ({
     datosSlyder: [
       {
-        titulo: 'Flexibilidad: ',
+        titulo: 'Flexibilidad ',
         texto:
           'Se adapta fácilmente a los requerimientos del mercado y los clientes, ya que los vehículos pueden transportar desde pequeños paquetes hasta grandes volúmenes y productos de diferente naturaleza.',
         imagen: require('@/assets/curso/tema1/img37.png'),
       },
       {
-        titulo: 'Penetración: ',
+        titulo: 'Penetración ',
         texto:
           'Permite realizar un servicio puerta a puerta de manera eficaz. ',
         imagen: require('@/assets/curso/tema1/img38.png'),
       },
       {
-        titulo: 'Rapidez: ',
+        titulo: 'Rapidez ',
         texto:
           'Es adecuado para los para envíos urgentes, ya que la carga y descarga de la mercancía se realiza de manera fácil, además de la versatilidad de horarios y vehículos.',
         imagen: require('@/assets/curso/tema1/img39.png'),
       },
       {
-        titulo: 'Coordinación con otros medios: ',
+        titulo: 'Coordinación con otros medios ',
         texto:
           'Capacidad de acceso a diferentes nodos logísticos, facilitando la manipulación y el transbordo.',
         imagen: require('@/assets/curso/tema1/img40.png'),
       },
       {
-        titulo: 'Internacionalización: ',
+        titulo: 'Internacionalización ',
         texto:
           'Debido a que corresponde al modo de transporte más utilizado en la mayoría de países del mundo.',
         imagen: require('@/assets/curso/tema1/img41.png'),

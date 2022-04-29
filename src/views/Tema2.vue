@@ -20,7 +20,7 @@
           .bloque-texto-g__texto.p-3.px-xxl-5.py-xxl-4
             p.mb-0 El embalaje sirve para proteger la mercancía ante posibles daños que se ocasionan durante la manipulación, el almacenamiento o el transporte. La función principal del embalaje es otorgar a la mercancía o a la unidad de carga una cobertura que permita su protección y, así mismo, poder identificarla y manejarla fácilmente. Un embalaje adecuado influye sobre la calidad y el precio del transporte. Por ejemplo, no debe ser muy voluminoso o pesado, porque tendrá efecto directo sobre los costos del transporte.
     
-    p.mb-5 La naturaleza de la mercancía, así como el proceso de transporte determina la elección del tipo de embalaje. Por ejemplo, a través del embalaje se pueden obtener pallets, sacos, cajas, etc. En todos los casos el embalaje cumple las siguientes funciones.
+    p.mb-5 La naturaleza de la mercancía, así como el proceso de transporte determina la elección del tipo de embalaje. Por ejemplo, a través del embalaje se pueden obtener <i>pallets</i>, sacos, cajas, etc. En todos los casos el embalaje cumple las siguientes funciones.
 
     ul.lista-ul--separador.mb-5(data-aos="fade-right")
       li 
@@ -56,7 +56,7 @@
           img.w-25(src='@/assets/curso/tema2/img04.svg' alt='AvatarTop')          
           .tarjeta.color-secundario.w-100
             .p-4             
-              p.text-center Madera se utiliza en pallet, cajas o toneles.
+              p.text-center Madera se utiliza en <i>pallet</i>, cajas o toneles.
       .col-6.col-lg-3.mb-3.mb-lg-0
         .tarjeta-avatar.w-100(data-aos="fade-right")
           img.w-25(src='@/assets/curso/tema2/img05.svg' alt='AvatarTop')          
@@ -141,7 +141,7 @@
               .col-4.pt-3
                 img(src='@/assets/curso/tema2/img17.svg')
             p.mx-4.text-center.mb-3 <b>Sobreembalaje</b>
-            p.text-center(v-if="this.mostrar==4") Recipiente o envoltura para contener varios bultos y conseguir una unidad de carga de fácil manipulación o estiba, por ejemplo, cajas, pallets, entre otros.
+            p.text-center(v-if="this.mostrar==4") Recipiente o envoltura para contener varios bultos y conseguir una unidad de carga de fácil manipulación o estiba, por ejemplo, cajas, <i>pallets</i>, entre otros.
 
 
     p.mb-5 Para el transporte de la mercancía y con el fin de configurar la unidad de carga, se hace necesaria la utilización de elementos complementarios que contribuyan a aumentar la resistencia, estabilidad física y la protección de la mercancía, por ejemplo:
@@ -149,13 +149,13 @@
     ul.lista-ul--separador.mb-5(data-aos="fade-right")
       li 
         i.fas.fa-angle-right
-        p.mb-0.ms-3 Cantonera (edge protection): son regletas en formas de L que se ajustan a las esquinas de las unidades de carga para proteger las esquinas contra golpes y rozaduras.
+        p.mb-0.ms-3 <b>Cantonera (<i>edge protection</i>):</b> son regletas en formas de L que se ajustan a las esquinas de las unidades de carga para proteger las esquinas contra golpes y rozaduras.
       li 
         i.fas.fa-angle-right
-        p.mb-0.ms-3 Eslinga: es una cuerda gruesa de fibra o acero, provista de un gancho que permite elevar grandes pesos o manipular cargas generales.
+        p.mb-0.ms-3 <b>Eslinga:</b> es una cuerda gruesa de fibra o acero, provista de un gancho que permite elevar grandes pesos o manipular cargas generales.
       li 
         i.fas.fa-angle-right
-        p.mb-0.ms-3 Deshidratantes: permiten proteger la mercancía seca de la humedad en el interior del embalaje.
+        p.mb-0.ms-3 <b>Deshidratantes:</b> permiten proteger la mercancía seca de la humedad en el interior del embalaje.
 
     br
     br

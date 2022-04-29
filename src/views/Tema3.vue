@@ -25,30 +25,30 @@
           figure
             img(src="@/assets/curso/tema3/img02.png")
           div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:100px;  background-color: rgba(255, 247, 230, 0.85)")
-            p.mt-2.mb-0 Cargar los pallets directamente desde la estantería.
+            p.mt-2.mb-0 Cargar los <i>pallets</i> directamente desde la estantería.
       .col-lg-6.mb-3.mb-lg-0(style="position: relative")
         div.p-0.position-relative(data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema3/img03.png")
           div.py-4.p-5.w-100.position-absolute(style="bottom: 0%; height:100px;  background-color: rgba(255, 247, 230, 0.85)")
-            p.mt-2.mb-0 Depositar los pallets de picking en la zona de precarga o playa de expediciones.
+            p.mt-2.mb-0 Depositar los <i>pallets</i> de <i>picking</i> en la zona de precarga o playa de expediciones.
 
 
     p.mb-5 Las siguientes herramientas y equipos son los que normalmente se utilizan en un proceso de cargue y descargue de mercancía, su uso depende del tipo de producto a manipular, transportar o elevar:
 
     .tema3(data-aos="fade-down")  
       AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-        .row.justify-content-center.align-items-top(titulo="Novedad")
+        .row.justify-content-center.align-items-top(titulo="<i>Pallet</i>")
           .col-md-7
-            p.mb-4 El pallet permite constituir cargas unitarias y se puede manipular con facilidad a través de carretillas u otro equipo mecánico, en la actualidad existen muchos tipos y tamaños, los cuales se han adaptado a cada necesidad del comercio y la industria.
-            p.mb-4 El pallet es, básicamente, una plataforma de carga que consiste en dos bases separadas entre sí por soportes, o una base única apoyada sobre patas de suficiente altura para permitir su manipulación por medio de camiones, montacargas, etc.
-            p.mb-0 La disposición de la mercancía sobre el pallet requiere una maximización de la capacidad y garantizar la seguridad durante el transporte, almacenamiento y manutención, entre las principales ventajas de su uso se encuentra la posibilidad de uso múltiple, mejorar la calidad en el transporte, agilizar la manipulación de mercancía y mayor productividad.
+            p.mb-4 El <i>pallet</i> permite constituir cargas unitarias y se puede manipular con facilidad a través de carretillas u otro equipo mecánico, en la actualidad existen muchos tipos y tamaños, los cuales se han adaptado a cada necesidad del comercio y la industria.
+            p.mb-4 El <i>pallet</i> es, básicamente, una plataforma de carga que consiste en dos bases separadas entre sí por soportes, o una base única apoyada sobre patas de suficiente altura para permitir su manipulación por medio de camiones, montacargas, etc.
+            p.mb-0 La disposición de la mercancía sobre el <i>pallet</i> requiere una maximización de la capacidad y garantizar la seguridad durante el transporte, almacenamiento y manutención, entre las principales ventajas de su uso se encuentra la posibilidad de uso múltiple, mejorar la calidad en el transporte, agilizar la manipulación de mercancía y mayor productividad.
           .col-md-5
             figure
               img(src="@/assets/curso/tema3/img04.png")              
         .row.justify-content-center.align-items-top(titulo="Transpaletas")
           .col-md-7
-            p.mb-0 Es una máquina que se puede utilizar para realizar las labores de carga y descarga de camiones, el traslado de pallets o contenedores y apoyo en las operaciones de picking, se encuentran transpaletas manuales o eléctricas, las cuales se pueden elevar ligeramente para facilitar su desplazamiento.
+            p.mb-0 Es una máquina que se puede utilizar para realizar las labores de carga y descarga de camiones, el traslado de <i>pallets</i> o contenedores y apoyo en las operaciones de <i>picking</i>, se encuentran transpaletas manuales o eléctricas, las cuales se pueden elevar ligeramente para facilitar su desplazamiento.
           .col-md-5
             figure
               img(src="@/assets/curso/tema3/img05.png")              
@@ -62,7 +62,7 @@
         .row.justify-content-center.align-items-top(titulo="Carretillas elevadoras")
           .col-md-7
             p.mb-4 Son equipos utilizados para cargar y descargar mercancía paletizada dentro y fuera de los contenedores y transportarla a cortas distancias.
-            p.mb-0 A través de dos horquillas, se utiliza para subir, bajar y transportar pallets, contenedores y otras cargas.
+            p.mb-0 A través de dos horquillas, se utiliza para subir, bajar y transportar <i>pallets</i>, contenedores y otras cargas.
           .col-md-5
             figure
               img(src="@/assets/curso/tema3/img07.png")              

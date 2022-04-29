@@ -34,10 +34,10 @@
                 .row.justify-content-center
                   p.mb-4 <b>Manual</b>
                   .col-lg-6                
-                    p.mb-4 Hace referencia al <u>no uso de maquinaria</u> para el control y picking en el almacén.
+                    p.mb-4 Hace referencia al <u>no uso de maquinaria</u> para el control y <i>picking</i> en el almacén.
                     p.mb-4 Uso de transpaletas <u>manuales</u> o montacargas para manejar la carga:
                     p.mb-0 - Movimiento de la carga paletizada.
-                    p.mb-4 - Carga embalada sobre pallets.
+                    p.mb-4 - Carga embalada sobre <i>pallets</i>.
                     p.mb-0 Las unidades para entregar al cliente o enviar a transporte y el resto del procedimiento se realiza de forma <u>manual</u>.
 
                   .col-lg-6
@@ -56,7 +56,7 @@
                       figure
                         img(src="@/assets/curso/tema6/img05.png")
                       div.p-2.w-100.position-absolute(style="font-size: 15px; bottom: 0%; height:120px;  background-color: rgba(255, 247, 230, 0.85)")
-                        p.mt-2.mb-0 El operario camina entre los pasillos .
+                        p.mt-2.mb-0 El operario camina entre los pasillos.
 
                   .col-6.col-lg-4.col-xl-2.mb-3.mb-lg-0
                     div.p-0.position-relative
@@ -99,7 +99,7 @@
                   p.mb-4 <b>Semiautomático</b>
                   .col-lg-6                
                     p.mb-0 Este tipo de almacenes pueden hacer uso de un sistema de preparación de pedidos semiautomático con sistemas SGA o ERP con reducción de tiempos de entrega, mejor comunicación y reducción de costos.
-                    p.mb-0 Utilizan equipos de manipulación de pedidos, como carretillas elevadoras, apiladores, recoge pedidos, montacargas, entre otros métodos semiautomáticos como cintas o rodillos grúas, ascensores, entre otros. Se facilita el picking y el embalaje de productos con la necesidad del manejo de diferentes operarios.
+                    p.mb-0 Utilizan equipos de manipulación de pedidos, como carretillas elevadoras, apiladores, recoge pedidos, montacargas, entre otros métodos semiautomáticos como cintas o rodillos grúas, ascensores, entre otros. Se facilita el <i>picking</i> y el embalaje de productos con la necesidad del manejo de diferentes operarios.
                   .col-lg-6
                     figure
                       img(src='@/assets/curso/tema6/img10.png')    
@@ -109,8 +109,8 @@
                   p.mb-4 <b>Automático</b>
                   .col-lg-6                
                     p.mb-3 - Se requiere el mínimo de operarios, porque  el proceso es automatizado. Desde la aceptación del presupuesto hasta el embalaje y la entrega.
-                    p.mb-4 - Es imprescindible el uso de tecnología SGA o sistemas ERP. La acción humana es necesaria para activar pedidos y las máquinas necesarias, contabilizar presupuestos y costos y la realizar algunas tareas de picking.
-                    p.mb-0 <i>Los sistemas utilizados normalmente son carretillas por radiofrecuencia, transelevadores y carruseles verticales y horizontales</i>
+                    p.mb-4 - Es imprescindible el uso de tecnología SGA o sistemas ERP. La acción humana es necesaria para activar pedidos y las máquinas necesarias, contabilizar presupuestos y costos y la realizar algunas tareas de <i>picking</i>.
+                    p.mb-0 <i>Los sistemas utilizados normalmente son carretillas por radiofrecuencia, transelevadores y carruseles verticales y horizontales.</i>
                   .col-lg-6
                     figure
                       img(src='@/assets/curso/tema6/img11.png')         

@@ -18,9 +18,9 @@
             .imagen-adornos-flotantes-tema3__img4: img(src="@/assets/curso/tema3/cajita1.png" style="left: -10% ; right: ; top: ; bottom: -10% ; width: 80px ")
       .col-lg-7
         p.mb-4 Una estructura de la mercancía que proporcione cohesión permite que no exista dislocaciones de esta durante su manipulación y transporte y, por ende, disminuir el riesgo de hundimiento y rotura.
-        p.mb-0 La ventaja principal de la cohesión de mercancía es el aumento en la estabilidad de la carga, ya que una correcta estructura permite una ocupación óptima en los vehículos de transporte. Por ejemplo, si la carga no está correctamente estructurada sobre un pallet, al momento de realizar su traslado al vehículo es susceptible de formar abanicos que provocan roturas.
+        p.mb-0 La ventaja principal de la cohesión de mercancía es el aumento en la estabilidad de la carga, ya que una correcta estructura permite una ocupación óptima en los vehículos de transporte. Por ejemplo, si la carga no está correctamente estructurada sobre un <i>pallet</i>, al momento de realizar su traslado al vehículo es susceptible de formar abanicos que provocan roturas.
 
-    p.mb-4 Se conocen los siguientes métodos de cohesión de la mercancía: 
+    p.mb-4 Se conocen los siguientes <b>métodos de cohesión</b> de la mercancía: 
 
     .tema5.tarjetas1.mb-5(data-aos="fade-left")
       .row.justify-content-center.align-items-center        
@@ -35,9 +35,9 @@
                 img.TFimage(src='@/assets/curso/tema5/img03.png')
                 .TFoverlay.p-4.pt-5
                   h4 Cohesión artificial 
-                  p.mb-0 Consiste en el uso de dispositivos especiales de mantenimiento, como stretch film (vinipel).
+                  p.mb-0 Consiste en el uso de dispositivos especiales de mantenimiento, como <i>stretch film</i> (vinipel).
 
-    p.mb-4 Para agrupar la carga de forma que permita estabilidad y, por ende, menor riesgo de rotura-pérdida pueden utilizarse las siguientes técnicas:
+    p.mb-4 Para agrupar la carga de forma que permita estabilidad y, por ende, menor riesgo de rotura-pérdida pueden utilizarse las <b>siguientes técnicas</b>:
 
     .tabla-a.tabla2.color-primario.mb-5(data-aos="fade-down") 
       table        
@@ -50,10 +50,10 @@
             td(colspan=2) Consiste en depositar, estibar o acondicionar los bultos o cualquier unidad de carga en un contenedor de transporte, con el fin de optimizar los flujos físicos del transporte. El contenedor almacena cualquier tipo de carga; para ello, existe una amplia variedad, los cuales se puede adaptar a las diferentes necesidades del transporte.            
           tr
             td.centrado(style="font-size:18px; border-left: 0px !important; word-wrap: break-word") <b>Flejado</b>
-            td(colspan=2) Operación a través de la cual se forma una sola unidad de carga con bultos que se sujetan entre sí mediante flejes, o se fijan uno o varios bultos sobre un pallet o plataforma.
+            td(colspan=2) Operación a través de la cual se forma una sola unidad de carga con bultos que se sujetan entre sí mediante flejes, o se fijan uno o varios bultos sobre un <i>pallet</i> o plataforma.
           tr
             td.centrado(style="font-size:18px; border-left: 0px !important; word-wrap: break-word") <b>Paletización</b>
-            td(colspan=2) Se trata de reunir uno o más paquetes acondicionados sobre un pallet, fijándolo a través de flejes, cartón, madera, retractilado, o cualquier sistema de sujeción, con el fin de mantener su seguridad y evitar robos o averías. <br>En la actualidad existen múltiples tipos y tamaños con diferentes materiales, los cuales se han adaptado a las necesidades del comercio y la industria. Puede usarse como soporte de la mercancía o formar parte del embalaje, lo que maximiza su capacidad y garantiza su seguridad durante las operaciones de manutención, almacenamiento y transporte.
+            td(colspan=2) Se trata de reunir uno o más paquetes acondicionados sobre un <i>pallet</i>, fijándolo a través de flejes, cartón, madera, retractilado, o cualquier sistema de sujeción, con el fin de mantener su seguridad y evitar robos o averías. <br>En la actualidad existen múltiples tipos y tamaños con diferentes materiales, los cuales se han adaptado a las necesidades del comercio y la industria. Puede usarse como soporte de la mercancía o formar parte del embalaje, lo que maximiza su capacidad y garantiza su seguridad durante las operaciones de manutención, almacenamiento y transporte.
           tr
             td.centrado(style="font-size:18px; border-left: 0px !important; word-wrap: break-word") <b>Preeslingado</b>
             td(colspan=2) Formación de una unidad de carga por la agrupación de diversos bultos o unidades a través su sujeción con eslingas para su manipulación por medio mecánicos.
@@ -125,7 +125,6 @@ export default {
   th
     background-color: #FFF3CD
     font-size: 18px
-    font-style: italic
     border-left: 1px solid #AFAFAF !important
   td
     vertical-align: top

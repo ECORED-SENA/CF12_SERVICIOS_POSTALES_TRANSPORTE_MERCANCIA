@@ -60,7 +60,7 @@
             
       div(x="74.9%" y="56.6%"  numero=" ")
         .tarjeta.tarjeta--gris.p-4(data-aos="fade-down")    
-          p.mb-4 Devoluciones de envases y embalajes de productos
+          p.mb-4.text-center <b>Devoluciones de envases y embalajes de productos</b>
           p.mb-4 La empresa no solo gestiona la devolución de sus productos, también pueden gestionar la devolución de los envases y los embalajes de estos. 
           p.mb-5 Los procesos que se pueden llevar a cabo con estos materiales son los siguientes:
           figuare
