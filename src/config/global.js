@@ -290,14 +290,14 @@ export default {
       },
       {
         nombre: 'Alex García',
-        cargo: 'Diseñador Instruccional',
+        cargo: 'Diseñador instruccional',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Silvia Milena Sequeda Cárdenas',
         cargo: 'Asesora metodológica',
-        centro: 'Centro de Diseño y metrología Regional - Distrito Capital',
+        centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
       },
       {
         nombre: 'José Gabriel Ortiz Abella',
