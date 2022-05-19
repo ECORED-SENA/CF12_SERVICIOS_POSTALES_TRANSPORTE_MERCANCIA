@@ -49,7 +49,6 @@
                     p.mb-4 Las empresas que utilizan este tipo de armado de pedidos no almacenan artículos con un peso o volumen exagerado, sino que se dedican a manejar paquetería de pequeñas dimensiones y las estanterías no suelen ser altas para que los operarios con la elevación de brazos puedan alcanzar los artículos en los estantes más altos sin problema.
                     p.mb-3 - Los espacios entre estanterías pueden estar más reducidos, pues no es necesario el paso de maquinaria entre las mismas.
                     p.mb-4 - El operario debe buscar los artículos en las zonas respectivas y llevarlos a la zona de manipulación o embalaje antes de su entrega.
-                    p.mb-0 Las unidades para entregar al cliente o enviar a transporte y el resto del procedimiento se realiza de forma manual.
 
                   .col-6.col-lg-4.col-xl-2.mb-3.mb-lg-0
                     div.p-0.position-relative

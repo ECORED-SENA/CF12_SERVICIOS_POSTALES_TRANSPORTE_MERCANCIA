@@ -34,7 +34,7 @@
     .tarjeta.tarjeta--gris.p-4(style="background-color: #FFFBEF")
       PasosB.color-acento-contenido.p-0.m-0
         .div.p-0.m-0.position-relative(titulo="")
-          p.mb-0.text-center <b>¿Cómo aprender durante este primer componente de formación?</b>
+          p.mb-0.text-center <b>¿Cómo aprender durante este componente de formación?</b>
           img.mb-0(src="@/assets/curso/intro/img100.svg")
           .position-absolute.p-0.m-0.w-100.d-flex.justify-content-center(style='bottom:0 ; left: 0%;')            
             audio(controls)            

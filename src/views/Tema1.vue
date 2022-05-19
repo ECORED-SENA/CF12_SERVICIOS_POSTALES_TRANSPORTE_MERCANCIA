@@ -174,7 +174,7 @@
       .col-12.col-xl-3.tarjeta1-tema1
         img(src="@/assets/curso/tema1/img21.png")
         div.p-3.mb-3.mb-xl-0(style="bottom: 0%; height:155px;  background-color: #FFF3CD")
-          h4 Intermodalidad
+          h4 Sostenibilidad
           p.mb-4 Es el modo menos contaminante para el medio ambiente.
 
     .row.justify-content-center.align-items-center.mb-5      
@@ -263,7 +263,7 @@
                     img.TFimage(src='@/assets/curso/tema1/img28.svg')      
                   .col-9 
                     h3.mb-0 Gran capacidad
-                p.mb-0 Existen buques de amplia gama de tamaños, desde 100 TPM (toneladas de peso muerto) hasta mayores de 300.000 TMP.
+                p.mb-0 Existen buques de amplia gama de tamaños, desde 100 TPM (toneladas de peso muerto) hasta mayores de 300.000 TPM.
 
     .tarjetas1.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center

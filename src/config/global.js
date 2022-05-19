@@ -186,7 +186,7 @@ export default {
     },
     {
       referencia:
-        'Correa, E., A., y Gómez, M., R. (2009). Tecnologías de la información y comunicación en la gestión de almacenes. Estudios Gerenciales, 26(117), 147-171.',
+        'Correa, E., A., y Gómez, M., R. (2009). Gestión de almacenes y tecnologías de la información y comunicación (TIC) . Estudios Gerenciales, 26(117), 147-171.',
       link: 'http://www.scielo.org.co/pdf/eg/v26n117/v26n117a09.pdf',
     },
     {
